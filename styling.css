@@ -1,0 +1,322 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:ital,wght@1,300&display=swap');
+
+.headeri{
+    width:5%;
+    position: absolute;
+    left:2%;
+    top:0.5%;
+    border-radius: 100%;
+    z-index: 1;
+    position:fixed;
+}
+.navi{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: right;
+    position: fixed;
+    width:100%;
+    background-color:  white;
+    height: 85px;
+text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+.menu{
+    margin-right: 1rem;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    
+}
+.menu:hover{
+    color: #ff7b00;
+}
+.nameh1{
+    margin :0px;
+    width: 60%;
+    margin: 150px auto auto auto;
+    border-radius: 30px;
+    color: blue;
+    padding: 20px;
+    /* height:150px; */
+    /* background-color: #0088ff; */
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    font-size: 3rem;
+}
+
+.grad{
+    margin :10px;
+    /* padding-top: 100px; */
+    background-color: #0088ff;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    /* height:80px; */
+    color: honeydew;
+    font-size: 3rem;
+    border-radius:30px;
+}
+
+.left{
+    text-align: left;
+}
+
+.name{
+    text-align: center;
+}
+.des{
+    margin: 0%;
+    text-align: center;
+    font-size: 1.3rem;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+}
+body{
+    margin: 0px;
+    text-align: center;
+    background-color: #f7f7f7;
+    font-family: sans-serif,bold;
+    font-weight: normal;
+  }
+.icons{
+    font-size: 60px;
+    margin-right: 10px;
+    color: #12a6fc;
+}
+.icons:hover{
+    color:white;
+}
+.footerlogo{
+    border-radius: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 10%;
+
+}
+.fmenu{
+    margin-right: 1rem;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+.fmenu:hover{
+    color:white;
+}
+.h2f{
+    font-size: medium;
+    font-family: sans-serif;
+}
+footer{
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #728a7f;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    margin-top: 50px;
+    padding: 32px;
+  }
+  h2 {
+    margin: 10px;
+  }
+  
+  .select-box {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+  }
+  
+  .select-box .options-container {
+    background: #2f3640;
+    color: #f5f6fa;
+    max-height: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 8px;
+    overflow: hidden;
+  
+    order: 1;
+  }
+  
+  .selected {
+    background: #2f3640;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    color: #f5f6fa;
+    position: relative;
+  
+    order: 0;
+  }
+  
+  .selected::after {
+    content: "";
+    background: url("arrow-down.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+    position: absolute;
+    height: 100%;
+    width: 32px;
+    right: 10px;
+    top: 5px;
+  
+    transition: all 0.4s;
+  }
+  
+  .select-box .options-container.active {
+    max-height: 200px;
+    opacity: 1;
+    overflow-y: scroll;
+  }
+  
+  .select-box .options-container.active + .selected::after {
+    transform: rotateX(180deg);
+    top: -6px;
+  }
+  
+  .select-box .options-container::-webkit-scrollbar {
+    width: 8px;
+    background: #0d141f;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  .select-box .options-container::-webkit-scrollbar-thumb {
+    background: #525861;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  .select-box .option,
+  .selected {
+    padding: 12px 24px;
+    cursor: pointer;
+  }
+  
+  .select-box .option:hover {
+    background: #414b57;
+  }
+  
+  .select-box label {
+    cursor: pointer;
+  }
+  
+  .select-box .option .radio {
+    display: none;
+  }
+  /* ****SERVICES**** */
+
+
+/* .servicesh1{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: honeydew;
+    font-size: 3rem;
+} */
+.space{
+    height: 85px;
+}
+.serbody{
+    text-align: left;
+}
+.servicehs{
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    color: honeydew;
+    border-radius:30px;
+    width: 60%;
+    font-size: 2rem;
+    background-color: #0088ff;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+}
+.floating{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 120px;
+    margin-top: 20px;
+}
+.serimgl{
+    width: 20%;
+    float: left;
+    margin-top: 5%;
+    margin-right: 9%;
+}
+.serh2{
+    padding-top: 7%;
+    text-align: left;
+    margin: 0px;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.servh2{
+  margin-left: 8%;
+  font-size: 2.5rem;
+  color: #ff9100;
+  margin-bottom: 3%;
+}
+.servh3{
+  margin-left: 13%;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+.seh2{
+  font-weight: lighter;
+  font-size: 2rem;
+  margin-left: 8%;
+}
+.serh21{
+  font-family: sans-serif;
+  font-weight: lighter;
+  line-height: 3rem;
+  font-size: 2rem;
+  width:65%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 5%;
+  background-color: #b8ffd7;
+  border-radius: 30px;
+  padding: 20px;
+}
+.serh22{
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 2rem;
+  margin-left: 10%;
+  margin-bottom: 2%;
+}
+.serimgr{
+  width: 20%;
+  float: right;
+  margin-top: 5%;
+  margin-left: 9%;
+}
+.strng{
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 2rem;
+  margin-left: 10%;
+  margin-bottom: 2%;
+}
+.stt
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
+h4
+{
+    font-family: 'Roboto', sans-serif;
+}
