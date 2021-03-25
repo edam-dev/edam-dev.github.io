@@ -1,2 +1,2 @@
 # edam-dev.github.io
-# edam-dev.tech
+# https://edam-dev.tech
