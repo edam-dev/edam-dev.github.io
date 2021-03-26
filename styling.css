@@ -25,6 +25,10 @@ text-decoration: none;
 a{
   text-decoration: none;
 }
+.fa{
+  color:white;
+  margin-right: 2%;
+}
 .menu{
     margin-right: 1rem;
     font-size: large;
@@ -307,7 +311,7 @@ footer{
 }
 .strng{
   font-family: sans-serif;
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 2rem;
   margin-left: 10%;
   margin-bottom: 2%;
@@ -329,4 +333,24 @@ h4
 .conimg{
   margin-top: 3%;
   border-radius: 100%;
+}
+
+
+/****** Become a member *******/
+.bam{
+  text-align: left;
+}
+.bamh3{
+  margin-left: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.bamul{
+  margin-left: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+
+}
+.conimg{
+  margin-bottom: 2%;
 }
