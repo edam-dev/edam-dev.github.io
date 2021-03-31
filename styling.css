@@ -1134,11 +1134,13 @@ h5{
   width:35%;
   height: 60%;
 }
-.socmail, .soclin, .socgit, .socinsta, .socwhat, .socadd, .socall{
+.socmail, .soclin, .socgit, .socinsta, .socwhat, .socadd, .socall, .soclink{
   padding: 1%;
   color: black;
 }
-
+.soclink:hover{
+  color: #42275a;
+}
 .socmail:hover{
   color: #EA4335;
 }
