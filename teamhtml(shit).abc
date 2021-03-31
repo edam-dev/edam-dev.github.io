@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="keywords" content="e-dam, E-DAM, Designing, Marketing,freelancing" />
+          <meta name="description" content="We are a IARE college-club. We learn and develop, design Website, Application. We even manange social media marketing i.e Digital Maekting and logo Designing.
+          We have content writers." />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <!-- css -->
+        
+          <!-- <link rel="stylesheet" type="text/css" href="a.css"> -->
+          <link rel="stylesheet" href="css/styling.css">
+          <script src="https://kit.fontawesome.com/2835b28d2d.js" crossorigin="anonymous"></script>
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+          <!-- bootstrap -->
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+            crossorigin="anonymous"></script>
+          <!-- title -->
+          <title>e - DAM</title>
+          <link rel="icon" href="images/edamlogo.jpg">
+        
+        </head>
+<body>
+    <div class="anime">
+        <img class="headeri" src="images/edamlogo.jpg">
+        <div class="navi">
+            <!-- <h1 class="headerh1">E - DAM</h1> -->
+            <a class="menu" href="index.html">Home</a>
+            <!-- <a class="menu" href="events.html">Events</a>
+        <a class="menu" href="news.html">News</a> -->
+            <a class="menu" href="team.html">About Us</a>
+            <a class="menu" href="departments.html">Departments</a>
+            <!-- <a class="menu"
+                href="https://workspace.google.com/intl/en_in/products/forms/?utm_source=google&utm_medium=cpc&utm_campaign=1009882-Workspace-APAC-IN-en-BKWS-EXA-Regular&utm_content=text-ad-none-none-DEV_c-CRE_469318868783-ADGP_Hybrid%20%7C%20AW%20SEM%20%7C%20BKWS%20~%20EXA%20%7C%20Forms%20%7C%20%5BM:1%5D%20%7C%20IN%20%7C%20EN-KWID_43700057528829413-kwd-82188617934&userloc_9062136-network_g&utm_term=KW_googleforms&gclid=Cj0KCQjwutaCBhDfARIsAJHWnHtCLHcXjgU7E71HPAC8SCRiXuaveN7zufT-aMYBqeEyQJBeqZiw9vQaAkuzEALw_wcB&gclsrc=aw.ds">Become
+                A Member</a> -->
+            <!-- <a class="menu" href="hireus.html">Hire Us</a> -->
+            <!-- <a class="menu" href="project.html">Our Projects</a> -->
+            <a class="menu" href="#contactus">Contact Us</a>
+        </div>
+    </div>
+    <div class="navi1">
+        <!-- <h1 class="headerh1">E - DAM</h1> -->
+        <a class="menu" href="index.html">Home</a>
+        <!-- <a class="menu" href="events.html">Events</a>
+        <a class="menu" href="news.html">News</a> -->
+        <a class="menu" href="team.html">About Us </a>
+        <a class="menu" href="departments.html">Departments</a>
+        <!-- <a class="menu"
+            href="https://workspace.google.com/intl/en_in/products/forms/?utm_source=google&utm_medium=cpc&utm_campaign=1009882-Workspace-APAC-IN-en-BKWS-EXA-Regular&utm_content=text-ad-none-none-DEV_c-CRE_469318868783-ADGP_Hybrid%20%7C%20AW%20SEM%20%7C%20BKWS%20~%20EXA%20%7C%20Forms%20%7C%20%5BM:1%5D%20%7C%20IN%20%7C%20EN-KWID_43700057528829413-kwd-82188617934&userloc_9062136-network_g&utm_term=KW_googleforms&gclid=Cj0KCQjwutaCBhDfARIsAJHWnHtCLHcXjgU7E71HPAC8SCRiXuaveN7zufT-aMYBqeEyQJBeqZiw9vQaAkuzEALw_wcB&gclsrc=aw.ds">Become
+            A Member</a> -->
+        <a class="menu" href="#contactus">Contact Us</a>
+        <!-- <a class="menu" href="hireus.html">Hire Us</a> -->
+        <!-- <a class="menu" href="project.html">Our Projects</a> -->
+    </div>
+    </div>
+    <div class="space">
+
+    </div>
+    <!-- <div class="banner"> 
+    <img src="homeimage.jpg" width="100%" height="20%">
+</div> -->
+    <div class="name">
+
+        <div class="oddiv">
+            <h2 class="odh2">About Us</h2>
+        </div>
+
+        <div class="pdes vis">
+            <p id="about-club" style="margin-left: 50px;margin-right: 50px;margin-top: 50px;margin-bottom: 50px;">
+                “The art challenges the technology, and<br> the technology inspires the art.”
+                E-DAM<br> is an abbreviated entity which focusses on few<br> the most in-demand fields-designing and
+                marketing.<br>
+                We are a student-based club organised by Institute of Aeronautical Engineering, Dundigal.<br> Our motive
+                is
+                to help small scale businesses by building them <br>websites and/or apps, introducing them to e-commerce
+                world,<br> providing young talented developers/designers a platform to<br> showcase their skills. Our
+                team
+                comprises of <br>hardworking tech, design and marketing enthusiasts who strongly<br> believe in your
+                vision,
+                our design.
+                <br>
+            </p>
+        </div>
+
+        <div class="oddiv">
+            <h2 class="odh2">Our Team</h2>
+        </div>
+
+        <p><br><br><br><br></p>
+        <div class="vis" style="font-size: 25px">
+
+            <img src="images/abhi.png" align="left" width="20%" height="20%">
+            <h3 align="left"><br><br><br><br> Abhishek. N - <br></h3>
+            <h4 align="left">President</h4><br>
+            <div class=" social" align="left">
+                <a href="https://www.google.com/"><i class="fas fa-envelope icons fa-3x"></i></a>
+                <a href="https://www.linkedin.com"><i class="fab fa-linkedin icons fa-3x"></i></a>
+                <a href="https://www.instagram.com/twelfth_doctor_/"><i class="fab fa-instagram icons fa-3x"></i></a>
+            </div>
+
+        </div> <br>
+
+        <div class="vis" style="font-size: 25px">
+
+            <img src="images/ashwin.png" align="right" width="20%" height="20%">
+            <h3 align="right"> <br><br><br><br>S. Ashwin <br></h3>
+            <h4 align="right">Technical Head and Web Development Head</h4><br>
+            <div class=" social" align="right">
+                <a href="https://www.google.com/"><i class="fas fa-envelope icons fa-3x"></i></a>
+                <a href="https://www.linkedin.com"><i class="fab fa-linkedin icons fa-3x"></i></a>
+                <a href="https://www.instagram.com/ashwin_srdy2/"><i class="fab fa-instagram icons fa-3x"></i></a>
+            </div>
+
+        </div><br><br>
+
+        <div class="vis" style="font-size: 25px">
+            <img src="images/Eshwar.png" align="left" width="20%" height="20%">
+            <h3 align="left"> <br><br><br><br>V. Eshwar Reddy <br></h3>
+            <h4 align="left">Vice President and Web Development Head</h4><br>
+            <div class=" social" align="left">
+                <a href="https://www.google.com/"><i class="fas fa-envelope icons fa-3x"></i></a>
+                <a href="https://www.linkedin.com"><i class="fab fa-linkedin icons fa-3x"></i></a>
+                <a href="https://www.instagram.com/eshwar_vallela/"><i class="fab fa-instagram icons fa-3x"></i></a>
+            </div>
+
+        </div><br>
+
+        <div class="vis" style="font-size: 25px">
+
+            <img src="images/Anirudh.png" align="right" width="20%" height="20%%">
+            <h3 align="right"> <br><br><br><br>K. Anirudh Sai <br></h3>
+            <h4 align="right"> Web Editor and Content Writer</h4><br>
+            <div class=" social" align="right">
+                <a href="https://www.google.com/"><i class="fas fa-envelope icons fa-3x"></i></a>
+                <a href="https://www.linkedin.com"><i class="fab fa-linkedin icons fa-3x"></i></a>
+                <a href="https://www.instagram.com/kaki.anirudh/"><i class="fab fa-instagram icons fa-3x"></i></a>
+            </div>
+
+        </div><br><br>
+
+        <div class="vis" style="font-size: 25px">
+
+            <img src="images/amuktha.png" align="left" width="20%" height="20%">
+            <h3 align="left"> <br><br><br><br>K. Amuktha <br></h3>
+            <h4 align="left"> Web Editor</h4><br>
+            <div class=" social" align="left">
+                <a href="https://www.google.com/"><i class="fas fa-envelope icons fa-3x"></i></a>
+                <a href="https://www.linkedin.com"><i class="fab fa-linkedin icons fa-3x"></i></a>
+                <a href="https://www.instagram.com/amukthasings/"><i class="fab fa-instagram icons fa-3x"></i></a>
+            </div>
+
+        </div><br>
+
+        <div class="vis" style="font-size: 25px">
+
+            <img src="images/rahim.png" align="right" width="20%" height="20%">
+            <h3 align="right"> <br><br><br><br>Rahim unisa <br></h3>
+            <h4 align="right">Web Editor and Content Writer</h4><br>
+            <div class=" social" align="right">
+                <a href="https://www.google.com/"><i class="fas fa-envelope icons fa-3x"></i></a>
+                <a href="https://www.linkedin.com"><i class="fab fa-linkedin icons fa-3x"></i></a>
+                <a href="https://www.instagram.com/_meaha_18/"><i class="fab fa-instagram icons fa-3x"></i></a>
+            </div>
+        </div><br><br>
+
+        <div class="vis" style="font-size: 25px">
+
+            <img src="images/Akhila.png" align="left" width="20%" height="20%">
+            <h3 align="left"> <br><br><br><br>Akhila<br></h3>
+            <div class=" social" align="left">
+                <h4 align="left">Web Editor</h4><br>
+                <a href="https://www.google.com/"><i class="fas fa-envelope icons fa-3x"></i></a>
+                <a href="https://www.linkedin.com"><i class="fab fa-linkedin icons fa-3x"></i></a>
+                <a href="https://www.instagram.com/mikaelson_2001/"><i class="fab fa-instagram icons fa-3x"></i></a>
+            </div>
+
+        </div><br>
+
+        <div class="vis" style="font-size: 25px">
+
+            <img src="images/datta.png" align="right" width="20%" height="20%">
+            <h3 align="right"> <br><br><br><br>Guru Datta <br></h3>
+            <h4 align="right">Web Editor and Lead Designer</h4><br>
+            <div class=" social" align="right">
+                <a href="https://www.google.com/"><i class="fas fa-envelope icons fa-3x"></i></a>
+                <a href="https://www.linkedin.com"><i class="fab fa-linkedin icons fa-3x"></i></a>
+                <a href="https://www.instagram.com/datta_clicks/"><i class="fab fa-instagram icons fa-3x"></i></a>
+            </div>
+
+        </div> <br><br>
+
+        <div class="vis" style="font-size: 25px">
+
+            <img src="images/deepthi.png" align="left" width="20%" height="20%">
+            <h3 align="left"> <br><br><br><br>N. Deepthi <br></h3>
+            <h4 align="left">Marketing Head and Web Editor</h4><br>
+            <div class="social" align="left">
+                <a href="https://www.google.com/"><i class="fas fa-envelope icons fa-3x"></i></a>
+                <a href="https://www.linkedin.com"><i class="fab fa-linkedin icons fa-3x"></i></a>
+                <a href="https://www.instagram.com/deepthi__15/"><i class="fab fa-instagram icons fa-3x"></i></a>
+            </div>
+
+        </div><br>
+
+        <div class="vis" style="font-size: 25px">
+
+            <img src="images/ajay.png" align="right" width="20%" height="20%">
+            <h3 align="right"> <br><br><br><br>Ajay Varma<br></h3>
+            <h4 align="right"> Web Editor and Designer</h4><br>
+
+            <div class=" social" align="right">
+                <a href="https://www.google.com/"><i class="fas fa-envelope icons fa-3x"></i></a>
+                <a href="https://www.linkedin.com"><i class="fab fa-linkedin icons fa-3x"></i></a>
+                <a href="https://www.instagram.com/ajay._.the_anonymous_/"><i
+                        class="fab fa-instagram icons fa-3x"></i></a>
+            </div>
+
+        </div>
+        <<br><br>
+
+            <div class="vis" style="font-size: 25px">
+
+                <img src="images/sharwan.png" align="left" width="20%" height="20%">
+                <p align="left"> </p>
+                <h3 align="left"> <br><br><br><br>Sharwan Solanki<br></h3>
+                <h4 align="left"> Web Editor and App Dev Head</h4><br>
+                <div class=" social" align="left">
+
+                    <a href="https://www.google.com/"><i class="fas fa-envelope icons fa-3x"></i></a>
+                    <a href="https://www.linkedin.com"><i class="fab fa-linkedin icons fa-3x"></i></a>
+                    <a href="https://www.instagram.com/ajay._.the_anonymous_/"><i
+                            class="fab fa-instagram icons fa-3x"></i></a>
+                </div>
+
+            </div><br><br><br><br><br><br>
+
+            <script src="index.js"></script>
+</body>
+<footer class="fclass">
+    <h2 align="centre">Reach Us At</h2>
+    <img class="footerlogo" src="images/edamlogo.jpg">
+    <!-- <a href="contactus.html">Contact Us</a> -->
+    <!-- <h2 id="contactus">Connect With Us At</h2> -->
+    <div id="contactus" class=" social">
+
+        <a class="icons" href="https://www.google.com/"><i class="fas fa-envelope icons"></i></a>
+        <a class="icons" href="https://www.linkedin.com"><i class="fab fa-linkedin icons"></i></a>
+        <a class="icons" href="https://www.instagram.com/"><i class="fab fa-instagram icons"></i></a>
+
+    </div>
+    <h2 class="h2f">&copy; copyright e-DAM, all rights reserved.</h2>
+</footer>
+
+</html>
