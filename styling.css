@@ -1,92 +1,105 @@
-.headeri{
-    width:5%;
-    position: absolute;
-    left:2%;
-    top:0.5%;
-    border-radius: 100%;
-    z-index: 20;
-    position:fixed;
-    animation-name: navanimemenu;
-    animation-duration: 1s;
+* {
+  box-sizing: border-box;
 }
+
+.headeri {
+  width: 5%;
+  position: absolute;
+  left: 2%;
+  top: 0.5%;
+  border-radius: 100%;
+  z-index: 20;
+  position: fixed;
+  animation-name: navanimemenu;
+  animation-duration: 1s;
+}
+
 /* .anime{
     animation-name: navanime;
     animation-duration: 1s;
 } */
-.animatio{
+.animatio {
   /* padding-top: 2%;
     padding-bottom: 2%; */
-    /* text-align: right; */
-    /* position: fixed; */
-    width:100%;
-    background-color:  black;
-    height: 100vh;
-    animation-name: backani;
-    animation-duration: 60s;
-    animation-delay: 3s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+  /* text-align: right; */
+  /* position: fixed; */
+  width: 100%;
+  background-color: black;
+  height: 100vh;
+  animation-name: backani;
+  animation-duration: 60s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
+
 .navi {
-    padding-top: 2%;
-    padding-bottom: 2%;
-    text-align: right;
-    position: fixed;
-    width:100%;
-    background-color:  black;
-    height: 85px;
-    animation-name: backani;
-    animation-duration: 60s;
-    animation-play-state: running;
-    animation-delay: 3s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    z-index: 10;
-    /* animation-name: navanimemenu;
-    animation-duration: 1.5s; */
-    
-    
-    /* opacity: 0.8; */
-}
-.navi1{
   padding-top: 2%;
-    padding-bottom: 2%;
-    text-align: right;
-    position: fixed;
-    width:100%;
-    background-color:  black;
-    height: 85px;
-    z-index: 0;
+  padding-bottom: 2%;
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  height: 85px;
+  animation-name: backani;
+  animation-duration: 60s;
+  animation-play-state: running;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  z-index: 10;
+  /* animation-name: navanimemenu;
+    animation-duration: 1.5s; */
+
+
+  /* opacity: 0.8; */
 }
-.menu{
-    margin-right: 2%;
-    font-size:medium;
-    text-decoration: none;
-    color:white;
-    z-index: 11;
-    animation-name: navanime;
-    animation-duration: 1s;
-    
-    
+
+.navi1 {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  height: 85px;
+  z-index: 0;
 }
-@keyframes navanimemenu{
-  from{
-    margin-top:-100%;
+
+.menu {
+  margin-right: 2%;
+  font-size: medium;
+  text-decoration: none;
+  color: white;
+  z-index: 11;
+  animation-name: navanime;
+  animation-duration: 1s;
+
+
+}
+
+@keyframes navanimemenu {
+  from {
+    margin-top: -100%;
 
   }
-  to{
+
+  to {
     margin-top: 0.5%;
   }
 }
-@keyframes navanime{
-  from{
-    margin-right:-100%;
+
+@keyframes navanime {
+  from {
+    margin-right: -100%;
   }
-  to{
+
+  to {
     margin-right: 2%;
   }
 }
-  /* 0%{
+
+/* 0%{
     background-color: white;
   }
   25%{
@@ -100,110 +113,122 @@
   100%{
     background-color: #ff9100;
   } */
-.menu:hover{
-    color: #ff7b00;
+.menu:hover {
+  color: #ff7b00;
 }
-.name{
+
+.name {
   background-image: url(cool-background1.png);
   /* justify-content: center; */
   /* align-items: center; */
-  width:100%;
-  height:100vh;
+  width: 100%;
+  height: 100vh;
 }
-.nameh1{
-    margin :0px;
-    /* margin: 150px auto auto auto; */
-    color: white;
-    width: 60%;
-    padding-top: 40vh;
-    animation-name: h1ani;
-    animation-duration: 1s;
-    background-size: 100%;
-    padding-left: 5%;
-    /* height:150px; */
-    /* background-color: #0088ff; */
-    /* background: rgb(2,0,36);
+
+.nameh1 {
+  margin: 0px;
+  /* margin: 150px auto auto auto; */
+  color: white;
+  width: 60%;
+  padding-top: 40vh;
+  animation-name: h1ani;
+  animation-duration: 1s;
+  background-size: 100%;
+  padding-left: 5%;
+  /* height:150px; */
+  /* background-color: #0088ff; */
+  /* background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
-    font-size: 3rem;
+  font-size: 3rem;
 }
-section{
+
+section {
   background-color: white;
 }
-.nameh2{
+
+.nameh2 {
   padding-top: 5vh;
-  width:50%;
+  width: 50%;
   padding-left: 5%;
   color: white;
 }
-@keyframes h1ani{
-  from{
+
+@keyframes h1ani {
+  from {
     font-size: 30px;
   }
-  to{
+
+  to {
     /* opacity: 1; */
   }
 }
-.grad{
-    margin :10px;
-    /* padding-top: 100px; */
-    background-color: #0088ff;
-    /* background: rgb(2,0,36);
+
+.grad {
+  margin: 10px;
+  /* padding-top: 100px; */
+  background-color: #0088ff;
+  /* background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
-    /* height:80px; */
-    color: honeydew;
-    font-size: 3rem;
-    border-radius:30px;
+  /* height:80px; */
+  color: honeydew;
+  font-size: 3rem;
+  border-radius: 30px;
 }
 
-.left{
-    text-align: left;
+.left {
+  text-align: left;
 }
 
 
-.des{
-    margin:auto;
-    margin-top: 60px;
-    text-align: center;
-    /* font-size: 1.3rem; */
-    /* padding-top: 100px;
+.des {
+  margin: auto;
+  margin-top: 60px;
+  text-align: center;
+  /* font-size: 1.3rem; */
+  /* padding-top: 100px;
     padding-bottom: 100px; */
-    background-color:#b8ffd7 ;
-    width: 60%;
-    border-radius: 30px;
-    
+  background-color: #b8ffd7;
+  width: 60%;
+  border-radius: 30px;
+
 
 }
-.desh2{
-    font-size: 2rem;
-    padding-top: 50px;
-    padding-bottom: 50px;
+
+.desh2 {
+  font-size: 2rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-.vis{
-    animation-name: h2ani;
-    animation-duration: 1.5s;
+
+.vis {
+  animation-name: h2ani;
+  animation-duration: 1.5s;
 }
+
 /* .des:hover{
     animation-name: h2ani;
     animation-duration: 2s;
 } */
-@keyframes h2ani{
-  from{
+@keyframes h2ani {
+  from {
     position: relative;
     top: 100px;
   }
-  to{
+
+  to {
     position: relative;
-    top:0px;
+    top: 0px;
   }
 }
-body{
-    margin: 0px;
-    text-align: center;
-    background-color: white;
-    font-family: sans-serif,bold;
-    font-weight: normal;
-    overflow-x: hidden;
-  }
+
+body {
+  margin: 0px;
+  text-align: center;
+  background-color: white;
+  font-family: sans-serif, bold;
+  font-weight: normal;
+  overflow-x: hidden;
+}
 
 /* .icons{
     font-size: 60px;
@@ -240,102 +265,104 @@ footer{
     background-color: #728a7f;
 } */
 * {
-    margin: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  box-sizing: border-box;
+}
 
-  .container {
-    margin-top: 50px;
-    padding: 32px;
-  }
-  h2 {
-    margin: 10px;
-  }
-  
-  .select-box {
-    display: flex;
-    width: 400px;
-    flex-direction: column;
-  }
-  
-  .select-box .options-container {
-    background: #2f3640;
-    color: #f5f6fa;
-    max-height: 0;
-    width: 100%;
-    opacity: 0;
-    transition: all 0.4s;
-    border-radius: 8px;
-    overflow: hidden;
-  
-    order: 1;
-  }
-  
-  .selected {
-    background: #2f3640;
-    border-radius: 8px;
-    margin-bottom: 8px;
-    color: #f5f6fa;
-    position: relative;
-  
-    order: 0;
-  }
-  
-  .selected::after {
-    content: "";
-    background: url("arrow-down.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-  
-    position: absolute;
-    height: 100%;
-    width: 32px;
-    right: 10px;
-    top: 5px;
-  
-    transition: all 0.4s;
-  }
-  
-  .select-box .options-container.active {
-    max-height: 200px;
-    opacity: 1;
-    overflow-y: scroll;
-  }
-  
-  .select-box .options-container.active + .selected::after {
-    transform: rotateX(180deg);
-    top: -6px;
-  }
-  
-  .select-box .options-container::-webkit-scrollbar {
-    width: 8px;
-    background: #0d141f;
-    border-radius: 0 8px 8px 0;
-  }
-  
-  .select-box .options-container::-webkit-scrollbar-thumb {
-    background: #525861;
-    border-radius: 0 8px 8px 0;
-  }
-  
-  .select-box .option,
-  .selected {
-    padding: 12px 24px;
-    cursor: pointer;
-  }
-  
-  .select-box .option:hover {
-    background: #414b57;
-  }
-  
-  .select-box label {
-    cursor: pointer;
-  }
-  
-  .select-box .option .radio {
-    display: none;
-  }
-  /* ****SERVICES**** */
+.container {
+  margin-top: 50px;
+  padding: 32px;
+}
+
+h2 {
+  margin: 10px;
+}
+
+.select-box {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+}
+
+.select-box .options-container {
+  background: #2f3640;
+  color: #f5f6fa;
+  max-height: 0;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.4s;
+  border-radius: 8px;
+  overflow: hidden;
+
+  order: 1;
+}
+
+.selected {
+  background: #2f3640;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  color: #f5f6fa;
+  position: relative;
+
+  order: 0;
+}
+
+.selected::after {
+  content: "";
+  background: url("arrow-down.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  height: 100%;
+  width: 32px;
+  right: 10px;
+  top: 5px;
+
+  transition: all 0.4s;
+}
+
+.select-box .options-container.active {
+  max-height: 200px;
+  opacity: 1;
+  overflow-y: scroll;
+}
+
+.select-box .options-container.active+.selected::after {
+  transform: rotateX(180deg);
+  top: -6px;
+}
+
+.select-box .options-container::-webkit-scrollbar {
+  width: 8px;
+  background: #0d141f;
+  border-radius: 0 8px 8px 0;
+}
+
+.select-box .options-container::-webkit-scrollbar-thumb {
+  background: #525861;
+  border-radius: 0 8px 8px 0;
+}
+
+.select-box .option,
+.selected {
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.select-box .option:hover {
+  background: #414b57;
+}
+
+.select-box label {
+  cursor: pointer;
+}
+
+.select-box .option .radio {
+  display: none;
+}
+
+/* ****SERVICES**** */
 
 
 /* .servicesh1{
@@ -344,73 +371,81 @@ footer{
     color: honeydew;
     font-size: 3rem;
 } */
-.space{
-    height: 85px;
-    background-color: black;
-}
-.serbody{
-    text-align: left;
-}
-.servicehs{
-    text-align: left;
-    margin: auto;
-    padding-top: 50px;
-    margin-left: 10%;
-    color:#ff7b00;
-    /* border-radius:30px; */
-    /* width: 60%; */
-    font-size: 2rem;
-    /* background-color: #0088ff; */
-    /* background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
-}
-.floating{
-    width: 80%;
-    text-align: center;
-    margin: auto;
-    padding-bottom: 120px;
-    margin-top: 20px;
+.space {
+  height: 85px;
+  background-color: black;
 }
 
-.serimgl{
-    width: 15%;
-    float: left;
-    border-radius: 100%;
-    margin-top: 5%;
-    margin-right: 9%;
+.serbody {
+  text-align: left;
 }
-.serh2{
-    padding-top: 5%;
-    text-align: left;
-    margin: 0px;
-    font-size: 1.8rem;
-    line-height: 2.5rem;
-    font-family: sans-serif;
-    font-weight: lighter;
+
+.servicehs {
+  text-align: left;
+  margin: auto;
+  padding-top: 50px;
+  margin-left: 10%;
+  color: #ff7b00;
+  /* border-radius:30px; */
+  /* width: 60%; */
+  font-size: 2rem;
+  /* background-color: #0088ff; */
+  /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
 }
-.servh2{
+
+.floating {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 120px;
+  margin-top: 20px;
+}
+
+.serimgl {
+  width: 15%;
+  float: left;
+  border-radius: 100%;
+  margin-top: 5%;
+  margin-right: 9%;
+}
+
+.serh2 {
+  padding-top: 5%;
+  text-align: left;
+  margin: 0px;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.servh2 {
   margin-left: 8%;
   font-size: 2.5rem;
   color: #ff9100;
   margin-bottom: 3%;
 }
-.servh3{
+
+.servh3 {
   margin-left: 13%;
   font-size: 2.5rem;
   font-weight: lighter;
   margin-bottom: 5%;
 }
-.seh2{
+
+.seh2 {
   font-weight: lighter;
   font-size: 2rem;
   margin-left: 8%;
 }
-.serh21{
+
+.serh21 {
   font-family: sans-serif;
   font-weight: lighter;
   line-height: 3rem;
   font-size: 2rem;
-  width:65%;
+  width: 65%;
   margin: auto;
   text-align: center;
   margin-bottom: 5%;
@@ -418,21 +453,24 @@ footer{
   border-radius: 30px;
   padding: 20px;
 }
-.serh22{
+
+.serh22 {
   font-family: sans-serif;
   font-weight: lighter;
   font-size: 2rem;
   margin-left: 10%;
   margin-bottom: 2%;
 }
-.serimgr{
+
+.serimgr {
   width: 15%;
   float: right;
   border-radius: 100%;
   margin-top: 5%;
   margin-left: 9%;
 }
-.strng{
+
+.strng {
   font-family: sans-serif;
   font-weight: lighter;
   font-size: 2rem;
@@ -443,7 +481,7 @@ footer{
 /* hireus */
 
 
-.dot{
+.dot {
   animation-name: dota;
   z-index: 3;
   animation-duration: 10s;
@@ -455,73 +493,86 @@ footer{
   background-color: white;
   border-radius: 100%;
 }
-@keyframes dota{
-  0%{
+
+@keyframes dota {
+  0% {
     position: absolute;
     margin-top: 0px;
     margin-left: 0px;
   }
-  33%{
+
+  33% {
     position: absolute;
     margin-top: 33vh;
     margin-left: 33%;
   }
-  66%{
+
+  66% {
     position: absolute;
     margin-top: 66vh;
     margin-left: 66%;
   }
-  100%{
+
+  100% {
     position: absolute;
     margin-top: 100vh;
     margin-left: 10%;
   }
 }
-@keyframes dota1{
-  0%{
+
+@keyframes dota1 {
+  0% {
     position: absolute;
     margin-top: 0px;
     margin-left: 200px;
   }
-  33%{
+
+  33% {
     position: absolute;
     margin-top: 33vh;
     margin-left: 33%;
   }
-  66%{
+
+  66% {
     position: absolute;
     margin-top: 66vh;
     margin-left: 30%;
   }
-  100%{
+
+  100% {
     position: absolute;
     margin-top: 100vh;
     margin-left: 60%;
   }
 }
-@keyframes dota2{
-  0%{
+
+@keyframes dota2 {
+  0% {
     position: absolute;
     margin-top: 300px;
     margin-left: 200px;
   }
-  33%{
+
+  33% {
     position: absolute;
     margin-top: 80vh;
     margin-left: 33%;
   }
-  66%{
+
+  66% {
     position: absolute;
     margin-top: 66vh;
     margin-left: 66%;
   }
-  100%{
+
+  100% {
     position: absolute;
     margin-top: 10vh;
     margin-left: 95%;
   }
 }
-.dot1{
+
+.dot1 {
   width: 3px;
   height: 3px;
   z-index: 3;
@@ -533,7 +584,8 @@ footer{
   animation-fill-mode: forwards;
   animation-direction: alternate;
 }
-.dot2{
+
+.dot2 {
   width: 5px;
   height: 5px;
   z-index: 3;
@@ -545,7 +597,8 @@ footer{
   animation-fill-mode: forwards;
   animation-direction: alternate;
 }
-.dot3{
+
+.dot3 {
   width: 4px;
   height: 4px;
   z-index: 1;
@@ -557,29 +610,34 @@ footer{
   animation-fill-mode: forwards;
   animation-direction: alternate;
 }
-@keyframes dota3{
-  0%{
+
+@keyframes dota3 {
+  0% {
     position: absolute;
     margin-top: 300px;
     margin-left: 400px;
   }
-  33%{
+
+  33% {
     position: absolute;
     margin-top: 60vh;
     margin-left: 23%;
   }
-  66%{
+
+  66% {
     position: absolute;
     margin-top: 66vh;
     margin-left: 36%;
   }
-  100%{
+
+  100% {
     position: absolute;
     margin-top: 10vh;
     margin-left: 90%;
   }
 }
-.dot4{
+
+.dot4 {
   width: 3px;
   height: 3px;
   z-index: 1;
@@ -591,29 +649,34 @@ footer{
   animation-fill-mode: forwards;
   animation-direction: alternate;
 }
-@keyframes dota4{
-  0%{
+
+@keyframes dota4 {
+  0% {
     position: absolute;
     margin-top: 30px;
     margin-left: 20px;
   }
-  33%{
+
+  33% {
     position: absolute;
     margin-top: 80vh;
     margin-left: 33%;
   }
-  66%{
+
+  66% {
     position: absolute;
     margin-top: 66vh;
     margin-left: 66%;
   }
-  100%{
+
+  100% {
     position: absolute;
     margin-top: 10vh;
     margin-left: 95%;
   }
 }
-.dot5{
+
+.dot5 {
   width: 3px;
   height: 3px;
   background-color: white;
@@ -625,29 +688,34 @@ footer{
   animation-fill-mode: forwards;
   animation-direction: alternate;
 }
-@keyframes dota5{
-  0%{
+
+@keyframes dota5 {
+  0% {
     position: absolute;
     margin-top: 30px;
     margin-left: 400px;
   }
-  33%{
+
+  33% {
     position: absolute;
     margin-top: 70vh;
     margin-left: 13%;
   }
-  66%{
+
+  66% {
     position: absolute;
     margin-top: 76vh;
     margin-left: 56%;
   }
-  100%{
+
+  100% {
     position: absolute;
     margin-top: 12vh;
     margin-left: 60%;
   }
 }
-.dot6{
+
+.dot6 {
   width: 2px;
   height: 2px;
   background-color: white;
@@ -659,29 +727,34 @@ footer{
   animation-fill-mode: forwards;
   animation-direction: alternate;
 }
-@keyframes dota6{
-  0%{
+
+@keyframes dota6 {
+  0% {
     position: absolute;
     margin-top: 300px;
     margin-right: 200px;
   }
-  33%{
+
+  33% {
     position: absolute;
     margin-top: 80vh;
     margin-right: 33%;
   }
-  66%{
+
+  66% {
     position: absolute;
     margin-top: 66vh;
     margin-right: 66%;
   }
-  100%{
+
+  100% {
     position: absolute;
     margin-top: 10vh;
     margin-right: 95%;
   }
 }
-.dot7{
+
+.dot7 {
   width: 2px;
   height: 2px;
   z-index: 1;
@@ -693,29 +766,34 @@ footer{
   animation-fill-mode: forwards;
   animation-direction: alternate;
 }
-@keyframes dota7{
-  0%{
+
+@keyframes dota7 {
+  0% {
     position: absolute;
     margin-bottom: 50px;
     margin-left: 20px;
   }
-  33%{
+
+  33% {
     position: absolute;
     margin-top: 65vh;
     margin-left: 33%;
   }
-  66%{
+
+  66% {
     position: absolute;
     margin-bottom: 66vh;
     margin-left: 66%;
   }
-  100%{
+
+  100% {
     position: absolute;
     margin-bottom: 10vh;
     margin-right: 95%;
   }
 }
-.dot8{
+
+.dot8 {
   width: 3px;
   height: 3px;
   z-index: 1;
@@ -727,29 +805,34 @@ footer{
   animation-fill-mode: forwards;
   animation-direction: alternate;
 }
-@keyframes dota8{
-  0%{
+
+@keyframes dota8 {
+  0% {
     position: absolute;
     margin-top: 600px;
     margin-left: 400px;
   }
-  33%{
+
+  33% {
     position: absolute;
     margin-bottom: 60vh;
     margin-left: 33%;
   }
-  66%{
+
+  66% {
     position: absolute;
     margin-top: 46vh;
     margin-left: 36%;
   }
-  100%{
+
+  100% {
     position: absolute;
     margin-top: 6vh;
     margin-left: 10%;
   }
 }
-.dot9{
+
+.dot9 {
   width: 4px;
   height: 4px;
   z-index: 1;
@@ -761,29 +844,34 @@ footer{
   animation-fill-mode: forwards;
   animation-direction: alternate;
 }
-@keyframes dota9{
-  0%{
+
+@keyframes dota9 {
+  0% {
     position: absolute;
     margin-top: 700px;
     margin-left: 320px;
   }
-  33%{
+
+  33% {
     position: absolute;
     margin-top: 60vh;
     margin-left: 63%;
   }
-  66%{
+
+  66% {
     position: absolute;
     margin-top: 66vh;
     margin-left: 34%;
   }
-  100%{
+
+  100% {
     position: absolute;
     margin-top: 19vh;
     margin-left: 60%;
   }
 }
-.dot10{
+
+.dot10 {
   width: 3px;
   height: 3px;
   z-index: 1;
@@ -795,23 +883,27 @@ footer{
   animation-fill-mode: forwards;
   animation-direction: alternate;
 }
-@keyframes dota10{
-  0%{
+
+@keyframes dota10 {
+  0% {
     position: absolute;
     margin-top: 900px;
     margin-left: 300px;
   }
-  33%{
+
+  33% {
     position: absolute;
     margin-top: 80vh;
     margin-left: 33%;
   }
-  66%{
+
+  66% {
     position: absolute;
     margin-top: 60vh;
     margin-left: 36%;
   }
-  100%{
+
+  100% {
     position: absolute;
     margin-top: 10vh;
     margin-left: 10%;
@@ -851,7 +943,7 @@ footer{
     
   }
 } */
-.d3{
+.d3 {
   /* box-sizing: border-box; */
   /* background-image: url(cool-background3.png); */
   margin: 0px;
@@ -872,25 +964,31 @@ footer{
   animation-duration: 2s; */
 
 }
-@keyframes backani{
-  0%{
+
+@keyframes backani {
+  0% {
     background-color: black;
   }
-  20%{
+
+  20% {
     background-color: #6fe890;
 
   }
-  40%{
+
+  40% {
     background-color: #1f96ff;
 
   }
-  60%{
+
+  60% {
     background-color: #ffc56e;
   }
-  80%{
+
+  80% {
     background-color: #c383f7;
   }
-  100%{
+
+  100% {
     background-color: #ff614d;
   }
 }
@@ -928,24 +1026,26 @@ footer{
     
   }
 } */
-.d3h1{
+.d3h1 {
   color: white;
   font-size: 3rem;
   padding-top: 30vh;
   /* margin-left:10%; */
   animation-name: d3an;
   animation-duration: 1s;
- 
+
 }
-.d3h2{
+
+.d3h2 {
   color: white;
   /* margin-left: 10%; */
   padding-top: 2%;
   animation-name: d3an;
   animation-duration: 2s;
-  
+
 }
-.bjoinus{
+
+.bjoinus {
   margin-left: auto;
 
   border-radius: 30px;
@@ -963,26 +1063,31 @@ footer{
   margin-top: 2%;
   background: none;
   background: none;
-  
+
 }
-.banc{
+
+.banc {
   text-decoration: none;
   color: white;
 }
-.bjoinus:hover{
+
+.bjoinus:hover {
   background: black;
   border-color: black;
 }
-.banc:hover{
+
+.banc:hover {
   color: white;
 }
-@keyframes d3an{
-  from{
+
+@keyframes d3an {
+  from {
     font-size: 1.5rem;
   }
-  to{
-  }
+
+  to {}
 }
+
 /* .d4{
   margin-left:-4px;
   width: 50%;
@@ -990,54 +1095,61 @@ footer{
   height: 100vh;
   display: inline-block;
 } */
-.d4img{
-  width:20%;
+.d4img {
+  width: 20%;
   position: absolute;
   top: 35vh;
-  right:10%;
+  right: 10%;
   border-radius: 100%;
   animation-name: d4imgani;
   animation-duration: 10s;
 
 }
-@keyframes d4imgani{
-  from{
-    
+
+@keyframes d4imgani {
+  from {
+
     position: relative;
     top: 80%;
   }
-  to{
-    
-  }
+
+  to {}
 }
-.testbody{
+
+.testbody {
   text-align: left;
   margin: 0px;
 }
-.d2{
+
+.d2 {
   margin: 0px;
   /* background-color: black; */
 }
-.odh2{
+
+.odh2 {
   font-size: 3rem;
   margin-top: 5%;
   margin-bottom: 5%;
 
 }
-.anileft{
+
+.anileft {
   animation-name: anleft;
   animation-duration: 1.5s;
 }
-@keyframes anleft{
-  from{
+
+@keyframes anleft {
+  from {
     position: relative;
     top: 140px;
   }
-  to{
+
+  to {
     position: relative;
-    top:0px;
+    top: 0px;
   }
 }
+
 /* .anileftsh2{
   animation-name: anleftsh2;
   animation-duration: 1s;
@@ -1051,19 +1163,20 @@ footer{
 
   }
 } */
-.fdiv1{
-  
+.fdiv1 {
+
   background-color: black;
   box-sizing: border-box;
 }
 
-.pdes{
+.pdes {
   margin-top: 7%;
   font-size: 1.2rem;
   margin-bottom: 4%;
   line-height: 2.5rem;
 }
-.butl{
+
+.butl {
   margin-bottom: 3%;
   padding: 10px 15px 10px 15px;
   color: white;
@@ -1074,11 +1187,12 @@ footer{
   border-width: 3px;
 
 }
-.butl:hover{
+
+.butl:hover {
   background: orange;
 }
 
-.butr{
+.butr {
   margin-bottom: 3%;
   padding: 10px 15px 10px 15px;
   color: white;
@@ -1088,12 +1202,15 @@ footer{
   border-style: none;
   border-width: 3px;
 }
-.butr:hover{
+
+.butr:hover {
   background: orange;
 }
-.blh{
+
+.blh {
   color: white;
 }
+
 /* .fclass{
   background-color: #e4e4ed;
 } */
@@ -1111,78 +1228,98 @@ footer{
   text-align: center;
   color: #393e46; 
 } */
-.contactlink{
+.contactlink {
   text-decoration: none;
   color: black;
 }
-.Department{
+
+.Department {
   background-color: #393e46;
 }
-#ConAboutUS{
-  padding: 7% 15%;
+
+/*#ConAboutUS {
+  padding: 1%
 }
-.feature-box{
-  padding: 5%;
+
+.feature-box {
+ 
+}*/
+
+#top {
+  width: 100%
 }
-#top{
-  width:100%
-}
-h5{
+
+h5 {
   font-size: 1.5rem;
 }
-.imgTeam{
-  width:35%;
-  height: 60%;
+
+.imgTeam {
+  clip-path: circle();
 }
-.socmail, .soclin, .socgit, .socinsta, .socwhat, .socadd, .socall{
+
+.socmail,
+.soclin,
+.socgit,
+.socinsta,
+.socwhat,
+.socadd,
+.socall {
   padding: 1%;
   color: black;
 }
 
-.socmail:hover{
+.socmail:hover {
   color: #EA4335;
 }
 
-.socinsta:hover{
+.socinsta:hover {
   color: #E1306C;
 }
 
-.socgit:hover{
+.socgit:hover {
   color: #333333;
 }
 
-.soclin:hover{
+.soclin:hover {
   color: #0077B5;
 }
-.socwhat:hover{
+
+.socwhat:hover {
   color: #25D366;
 }
-.socadd:hover{
+
+.socadd:hover {
   color: #f13800;
 }
-.soccall:hover{
+
+.soccall:hover {
   color: #4c6ef4;
 }
-.contactlist{
+
+.contactlist {
   list-style-type: none;
   padding: 2%;
 }
-#contactus{
-  text-align : center;
-   font-size: 1rem;
-   background-color: #eeeeee;
+
+#contactus {
+  text-align: center;
+  font-size: 1rem;
+  background-color: #eeeeee;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
+
 /* body{
     margin: 0;
   padding: 0;
   background-color: #eeeeee;
 } */
-#ConTeam{
-    text-align: center;
+#ConTeam {
+  text-align: center;
 }
+
 /* .gotopbtn{
   position: fixed;
   width: 40px;
@@ -1197,10 +1334,11 @@ html{
   color: white;
   font-size: 25px;
 } */
-footer{
-    background-color: #eeeeee;
-    text-align: center;
+footer {
+  background-color: #eeeeee;
+  text-align: center;
 }
+
 /* .homenav{
     color: white;
 } */
@@ -1214,8 +1352,10 @@ footer{
 /* .navicon{
     float: left;
 } */
-.teamtitle{
+.teamtitle {
   margin-top: 7%;
   margin-bottom: 2%;
   font-size: 2.5rem;
+  text-align: center;
+
 }
