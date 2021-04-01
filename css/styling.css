@@ -1256,9 +1256,13 @@ h5 {
 }
 
 .Eshwar {
+  
   margin-top: 1rem;
 }
-
+/*img, svg {
+  vertical-align: middle;
+  
+}*/
 .socmail,
 .soclin,
 .socgit,
