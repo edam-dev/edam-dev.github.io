@@ -1,1224 +1,1215 @@
 .headeri{
-  width:5%;
-  position: absolute;
-  left:2%;
-  top:0.5%;
-  border-radius: 100%;
-  z-index: 20;
-  position:fixed;
-  animation-name: navanimemenu;
-  animation-duration: 1s;
+    width:5%;
+    position: absolute;
+    left:2%;
+    top:0.5%;
+    border-radius: 100%;
+    z-index: 20;
+    position:fixed;
+    animation-name: navanimemenu;
+    animation-duration: 1s;
 }
 /* .anime{
-  animation-name: navanime;
-  animation-duration: 1s;
+    animation-name: navanime;
+    animation-duration: 1s;
 } */
 .animatio{
-/* padding-top: 2%;
-  padding-bottom: 2%; */
-  /* text-align: right; */
-  /* position: fixed; */
-  width:100%;
-  background-color:  black;
-  height: 100vh;
-  animation-name: backani;
-  animation-duration: 60s;
-  animation-delay: 3s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+  /* padding-top: 2%;
+    padding-bottom: 2%; */
+    /* text-align: right; */
+    /* position: fixed; */
+    width:100%;
+    background-color:  black;
+    height: 100vh;
+    animation-name: backani;
+    animation-duration: 60s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 .navi {
-  padding-top: 2%;
-  padding-bottom: 2%;
-  text-align: right;
-  position: fixed;
-  width:100%;
-  background-color:  black;
-  height: 85px;
-  animation-name: backani;
-  animation-duration: 60s;
-  animation-play-state: running;
-  animation-delay: 3s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  z-index: 10;
-  /* animation-name: navanimemenu;
-  animation-duration: 1.5s; */
-  
-  
-  /* opacity: 0.8; */
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: right;
+    position: fixed;
+    width:100%;
+    background-color:  black;
+    height: 85px;
+    animation-name: backani;
+    animation-duration: 60s;
+    animation-play-state: running;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: 10;
+    /* animation-name: navanimemenu;
+    animation-duration: 1.5s; */
+    
+    
+    /* opacity: 0.8; */
 }
 .navi1{
-padding-top: 2%;
-  padding-bottom: 2%;
-  text-align: right;
-  position: fixed;
-  width:100%;
-  background-color:  black;
-  height: 85px;
-  z-index: 0;
+  padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: right;
+    position: fixed;
+    width:100%;
+    background-color:  black;
+    height: 85px;
+    z-index: 0;
 }
 .menu{
-  margin-right: 2%;
-  font-size:medium;
-  text-decoration: none;
-  color:white;
-  z-index: 11;
-  animation-name: navanime;
-  animation-duration: 1s;
-  
-  
+    margin-right: 2%;
+    font-size:medium;
+    text-decoration: none;
+    color:white;
+    z-index: 11;
+    animation-name: navanime;
+    animation-duration: 1s;
+    
+    
 }
 @keyframes navanimemenu{
-from{
-  margin-top:-100%;
+  from{
+    margin-top:-100%;
 
-}
-to{
-  margin-top: 0.5%;
-}
+  }
+  to{
+    margin-top: 0.5%;
+  }
 }
 @keyframes navanime{
-from{
-  margin-right:-100%;
+  from{
+    margin-right:-100%;
+  }
+  to{
+    margin-right: 2%;
+  }
 }
-to{
-  margin-right: 2%;
-}
-}
-/* 0%{
-  background-color: white;
-}
-25%{
-  background-color: yellowgreen;
-
-}
-75%{
-  background-color: #12a6fc;
-
-}
-100%{
-  background-color: #ff9100;
-} */
+  /* 0%{
+    background-color: white;
+  }
+  25%{
+    background-color: yellowgreen;
+  }
+  75%{
+    background-color: #12a6fc;
+  }
+  100%{
+    background-color: #ff9100;
+  } */
 .menu:hover{
-  color: #ff7b00;
+    color: #ff7b00;
 }
 .name{
-background-image: url(cool-background1.png);
-/* justify-content: center; */
-/* align-items: center; */
-width:100%;
-height:100vh;
+  background-image: url(cool-background1.png);
+  /* justify-content: center; */
+  /* align-items: center; */
+  width:100%;
+  height:100vh;
 }
 .nameh1{
-  margin :0px;
-  /* margin: 150px auto auto auto; */
-  color: white;
-  width: 60%;
-  padding-top: 40vh;
-  animation-name: h1ani;
-  animation-duration: 1s;
-  background-size: 100%;
-  padding-left: 5%;
-  /* height:150px; */
-  /* background-color: #0088ff; */
-  /* background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
-  font-size: 3rem;
+    margin :0px;
+    /* margin: 150px auto auto auto; */
+    color: white;
+    width: 60%;
+    padding-top: 40vh;
+    animation-name: h1ani;
+    animation-duration: 1s;
+    background-size: 100%;
+    padding-left: 5%;
+    /* height:150px; */
+    /* background-color: #0088ff; */
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    font-size: 3rem;
 }
 section{
-background-color: white;
+  background-color: white;
 }
 .nameh2{
-padding-top: 5vh;
-width:50%;
-padding-left: 5%;
-color: white;
+  padding-top: 5vh;
+  width:50%;
+  padding-left: 5%;
+  color: white;
 }
 @keyframes h1ani{
-from{
-  font-size: 30px;
-}
-to{
-  /* opacity: 1; */
-}
+  from{
+    font-size: 30px;
+  }
+  to{
+    /* opacity: 1; */
+  }
 }
 .grad{
-  margin :10px;
-  /* padding-top: 100px; */
-  background-color: #0088ff;
-  /* background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
-  /* height:80px; */
-  color: honeydew;
-  font-size: 3rem;
-  border-radius:30px;
+    margin :10px;
+    /* padding-top: 100px; */
+    background-color: #0088ff;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    /* height:80px; */
+    color: honeydew;
+    font-size: 3rem;
+    border-radius:30px;
 }
 
 .left{
-  text-align: left;
+    text-align: left;
 }
 
 
 .des{
-  margin:auto;
-  margin-top: 60px;
-  text-align: center;
-  /* font-size: 1.3rem; */
-  /* padding-top: 100px;
-  padding-bottom: 100px; */
-  background-color:#b8ffd7 ;
-  width: 60%;
-  border-radius: 30px;
-  
+    margin:auto;
+    margin-top: 60px;
+    text-align: center;
+    /* font-size: 1.3rem; */
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
+    background-color:#b8ffd7 ;
+    width: 60%;
+    border-radius: 30px;
+    
 
 }
 .desh2{
-  font-size: 2rem;
-  padding-top: 50px;
-  padding-bottom: 50px;
+    font-size: 2rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .vis{
-  animation-name: h2ani;
-  animation-duration: 1.5s;
+    animation-name: h2ani;
+    animation-duration: 1.5s;
 }
 /* .des:hover{
-  animation-name: h2ani;
-  animation-duration: 2s;
+    animation-name: h2ani;
+    animation-duration: 2s;
 } */
 @keyframes h2ani{
-from{
-  position: relative;
-  top: 100px;
-}
-to{
-  position: relative;
-  top:0px;
-}
+  from{
+    position: relative;
+    top: 100px;
+  }
+  to{
+    position: relative;
+    top:0px;
+  }
 }
 body{
-  margin: 0px;
-  text-align: center;
-  background-color: white;
-  font-family: sans-serif,bold;
-  font-weight: normal;
-  overflow-x: hidden;
-}
+    margin: 0px;
+    text-align: center;
+    background-color: white;
+    font-family: sans-serif,bold;
+    font-weight: normal;
+    overflow-x: hidden;
+  }
 
 /* .icons{
-  font-size: 60px;
-  margin-right: 10px;
-  color: #12a6fc;
+    font-size: 60px;
+    margin-right: 10px;
+    color: #12a6fc;
 }
 .icons:hover{
-  color:white;
+    color:white;
 } */
 /* .footerlogo{
-  border-radius: 100%;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  width: 10%;
-
+    border-radius: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 10%;
 }
 .fmenu{
-  margin-right: 1rem;
-  font-size: large;
-  text-decoration: none;
-  color: black;
+    margin-right: 1rem;
+    font-size: large;
+    text-decoration: none;
+    color: black;
 }
 .fmenu:hover{
-  color:white;
+    color:white;
 }
 .h2f{
-  font-size: medium;
-  font-family: sans-serif;
+    font-size: medium;
+    font-family: sans-serif;
 }
 footer{
-  text-align: center;
-  padding-top: 35px;
-  padding-bottom: 35px;
-  background-color: #728a7f;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #728a7f;
 } */
 * {
-  margin: 0;
-  box-sizing: border-box;
-}
+    margin: 0;
+    box-sizing: border-box;
+  }
 
-.container {
-  margin-top: 50px;
-  padding: 32px;
-}
-h2 {
-  margin: 10px;
-}
-
-.select-box {
-  display: flex;
-  width: 400px;
-  flex-direction: column;
-}
-
-.select-box .options-container {
-  background: #2f3640;
-  color: #f5f6fa;
-  max-height: 0;
-  width: 100%;
-  opacity: 0;
-  transition: all 0.4s;
-  border-radius: 8px;
-  overflow: hidden;
-
-  order: 1;
-}
-
-.selected {
-  background: #2f3640;
-  border-radius: 8px;
-  margin-bottom: 8px;
-  color: #f5f6fa;
-  position: relative;
-
-  order: 0;
-}
-
-.selected::after {
-  content: "";
-  background: url("arrow-down.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  position: absolute;
-  height: 100%;
-  width: 32px;
-  right: 10px;
-  top: 5px;
-
-  transition: all 0.4s;
-}
-
-.select-box .options-container.active {
-  max-height: 200px;
-  opacity: 1;
-  overflow-y: scroll;
-}
-
-.select-box .options-container.active + .selected::after {
-  transform: rotateX(180deg);
-  top: -6px;
-}
-
-.select-box .options-container::-webkit-scrollbar {
-  width: 8px;
-  background: #0d141f;
-  border-radius: 0 8px 8px 0;
-}
-
-.select-box .options-container::-webkit-scrollbar-thumb {
-  background: #525861;
-  border-radius: 0 8px 8px 0;
-}
-
-.select-box .option,
-.selected {
-  padding: 12px 24px;
-  cursor: pointer;
-}
-
-.select-box .option:hover {
-  background: #414b57;
-}
-
-.select-box label {
-  cursor: pointer;
-}
-
-.select-box .option .radio {
-  display: none;
-}
-/* ****SERVICES**** */
+  .container {
+    margin-top: 50px;
+    padding: 32px;
+  }
+  h2 {
+    margin: 10px;
+  }
+  
+  .select-box {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+  }
+  
+  .select-box .options-container {
+    background: #2f3640;
+    color: #f5f6fa;
+    max-height: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 8px;
+    overflow: hidden;
+  
+    order: 1;
+  }
+  
+  .selected {
+    background: #2f3640;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    color: #f5f6fa;
+    position: relative;
+  
+    order: 0;
+  }
+  
+  .selected::after {
+    content: "";
+    background: url("arrow-down.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+    position: absolute;
+    height: 100%;
+    width: 32px;
+    right: 10px;
+    top: 5px;
+  
+    transition: all 0.4s;
+  }
+  
+  .select-box .options-container.active {
+    max-height: 200px;
+    opacity: 1;
+    overflow-y: scroll;
+  }
+  
+  .select-box .options-container.active + .selected::after {
+    transform: rotateX(180deg);
+    top: -6px;
+  }
+  
+  .select-box .options-container::-webkit-scrollbar {
+    width: 8px;
+    background: #0d141f;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  .select-box .options-container::-webkit-scrollbar-thumb {
+    background: #525861;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  .select-box .option,
+  .selected {
+    padding: 12px 24px;
+    cursor: pointer;
+  }
+  
+  .select-box .option:hover {
+    background: #414b57;
+  }
+  
+  .select-box label {
+    cursor: pointer;
+  }
+  
+  .select-box .option .radio {
+    display: none;
+  }
+  /* ****SERVICES**** */
 
 
 /* .servicesh1{
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  color: honeydew;
-  font-size: 3rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: honeydew;
+    font-size: 3rem;
 } */
 .space{
-  height: 85px;
-  background-color: black;
+    height: 85px;
+    background-color: black;
 }
 .serbody{
-  text-align: left;
+    text-align: left;
 }
 .servicehs{
-  text-align: left;
-  margin: auto;
-  padding-top: 50px;
-  margin-left: 10%;
-  color:#ff7b00;
-  /* border-radius:30px; */
-  /* width: 60%; */
-  font-size: 2rem;
-  /* background-color: #0088ff; */
-  /* background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    text-align: left;
+    margin: auto;
+    padding-top: 50px;
+    margin-left: 10%;
+    color:#ff7b00;
+    /* border-radius:30px; */
+    /* width: 60%; */
+    font-size: 2rem;
+    /* background-color: #0088ff; */
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
 }
 .floating{
-  width: 80%;
-  text-align: center;
-  margin: auto;
-  padding-bottom: 120px;
-  margin-top: 20px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 120px;
+    margin-top: 20px;
 }
 
 .serimgl{
-  width: 15%;
-  float: left;
-  border-radius: 100%;
-  margin-top: 5%;
-  margin-right: 9%;
+    width: 15%;
+    float: left;
+    border-radius: 100%;
+    margin-top: 5%;
+    margin-right: 9%;
 }
 .serh2{
-  padding-top: 5%;
-  text-align: left;
-  margin: 0px;
-  font-size: 1.8rem;
-  line-height: 2.5rem;
-  font-family: sans-serif;
-  font-weight: lighter;
+    padding-top: 5%;
+    text-align: left;
+    margin: 0px;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    font-family: sans-serif;
+    font-weight: lighter;
 }
 .servh2{
-margin-left: 8%;
-font-size: 2.5rem;
-color: #ff9100;
-margin-bottom: 3%;
+  margin-left: 8%;
+  font-size: 2.5rem;
+  color: #ff9100;
+  margin-bottom: 3%;
 }
 .servh3{
-margin-left: 13%;
-font-size: 2.5rem;
-font-weight: lighter;
-margin-bottom: 5%;
+  margin-left: 13%;
+  font-size: 2.5rem;
+  font-weight: lighter;
+  margin-bottom: 5%;
 }
 .seh2{
-font-weight: lighter;
-font-size: 2rem;
-margin-left: 8%;
+  font-weight: lighter;
+  font-size: 2rem;
+  margin-left: 8%;
 }
 .serh21{
-font-family: sans-serif;
-font-weight: lighter;
-line-height: 3rem;
-font-size: 2rem;
-width:65%;
-margin: auto;
-text-align: center;
-margin-bottom: 5%;
-background-color: #b8ffd7;
-border-radius: 30px;
-padding: 20px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  line-height: 3rem;
+  font-size: 2rem;
+  width:65%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 5%;
+  background-color: #b8ffd7;
+  border-radius: 30px;
+  padding: 20px;
 }
 .serh22{
-font-family: sans-serif;
-font-weight: lighter;
-font-size: 2rem;
-margin-left: 10%;
-margin-bottom: 2%;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 2rem;
+  margin-left: 10%;
+  margin-bottom: 2%;
 }
 .serimgr{
-width: 15%;
-float: right;
-border-radius: 100%;
-margin-top: 5%;
-margin-left: 9%;
+  width: 15%;
+  float: right;
+  border-radius: 100%;
+  margin-top: 5%;
+  margin-left: 9%;
 }
 .strng{
-font-family: sans-serif;
-font-weight: lighter;
-font-size: 2rem;
-margin-left: 10%;
-margin-bottom: 2%;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 2rem;
+  margin-left: 10%;
+  margin-bottom: 2%;
 }
 
 /* hireus */
 
 
 .dot{
-animation-name: dota;
-z-index: 3;
-animation-duration: 10s;
-animation-iteration-count: infinite;
-animation-fill-mode: forwards;
-animation-direction: alternate;
-width: 2px;
-height: 2px;
-background-color: white;
-border-radius: 100%;
+  animation-name: dota;
+  z-index: 3;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  border-radius: 100%;
 }
 @keyframes dota{
-0%{
-  position: absolute;
-  margin-top: 0px;
-  margin-left: 0px;
-}
-33%{
-  position: absolute;
-  margin-top: 33vh;
-  margin-left: 33%;
-}
-66%{
-  position: absolute;
-  margin-top: 66vh;
-  margin-left: 66%;
-}
-100%{
-  position: absolute;
-  margin-top: 100vh;
-  margin-left: 10%;
-}
+  0%{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  33%{
+    position: absolute;
+    margin-top: 33vh;
+    margin-left: 33%;
+  }
+  66%{
+    position: absolute;
+    margin-top: 66vh;
+    margin-left: 66%;
+  }
+  100%{
+    position: absolute;
+    margin-top: 100vh;
+    margin-left: 10%;
+  }
 }
 @keyframes dota1{
-0%{
-  position: absolute;
-  margin-top: 0px;
-  margin-left: 200px;
-}
-33%{
-  position: absolute;
-  margin-top: 33vh;
-  margin-left: 33%;
-}
-66%{
-  position: absolute;
-  margin-top: 66vh;
-  margin-left: 30%;
-}
-100%{
-  position: absolute;
-  margin-top: 100vh;
-  margin-left: 60%;
-}
+  0%{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 200px;
+  }
+  33%{
+    position: absolute;
+    margin-top: 33vh;
+    margin-left: 33%;
+  }
+  66%{
+    position: absolute;
+    margin-top: 66vh;
+    margin-left: 30%;
+  }
+  100%{
+    position: absolute;
+    margin-top: 100vh;
+    margin-left: 60%;
+  }
 }
 @keyframes dota2{
-0%{
-  position: absolute;
-  margin-top: 300px;
-  margin-left: 200px;
-}
-33%{
-  position: absolute;
-  margin-top: 80vh;
-  margin-left: 33%;
-}
-66%{
-  position: absolute;
-  margin-top: 66vh;
-  margin-left: 66%;
-}
-100%{
-  position: absolute;
-  margin-top: 10vh;
-  margin-left: 95%;
-}
+  0%{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 200px;
+  }
+  33%{
+    position: absolute;
+    margin-top: 80vh;
+    margin-left: 33%;
+  }
+  66%{
+    position: absolute;
+    margin-top: 66vh;
+    margin-left: 66%;
+  }
+  100%{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 95%;
+  }
 }
 .dot1{
-width: 3px;
-height: 3px;
-z-index: 3;
-background-color: white;
-border-radius: 100%;
-animation-name: dota1;
-animation-duration: 10s;
-animation-iteration-count: infinite;
-animation-fill-mode: forwards;
-animation-direction: alternate;
+  width: 3px;
+  height: 3px;
+  z-index: 3;
+  background-color: white;
+  border-radius: 100%;
+  animation-name: dota1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
 }
 .dot2{
-width: 5px;
-height: 5px;
-z-index: 3;
-background-color: white;
-border-radius: 100%;
-animation-name: dota2;
-animation-duration: 5s;
-animation-iteration-count: infinite;
-animation-fill-mode: forwards;
-animation-direction: alternate;
+  width: 5px;
+  height: 5px;
+  z-index: 3;
+  background-color: white;
+  border-radius: 100%;
+  animation-name: dota2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
 }
 .dot3{
-width: 4px;
-height: 4px;
-z-index: 1;
-background-color: white;
-border-radius: 100%;
-animation-name: dota3;
-animation-duration: 10s;
-animation-iteration-count: infinite;
-animation-fill-mode: forwards;
-animation-direction: alternate;
+  width: 4px;
+  height: 4px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 100%;
+  animation-name: dota3;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
 }
 @keyframes dota3{
-0%{
-  position: absolute;
-  margin-top: 300px;
-  margin-left: 400px;
-}
-33%{
-  position: absolute;
-  margin-top: 60vh;
-  margin-left: 23%;
-}
-66%{
-  position: absolute;
-  margin-top: 66vh;
-  margin-left: 36%;
-}
-100%{
-  position: absolute;
-  margin-top: 10vh;
-  margin-left: 90%;
-}
+  0%{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 400px;
+  }
+  33%{
+    position: absolute;
+    margin-top: 60vh;
+    margin-left: 23%;
+  }
+  66%{
+    position: absolute;
+    margin-top: 66vh;
+    margin-left: 36%;
+  }
+  100%{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 90%;
+  }
 }
 .dot4{
-width: 3px;
-height: 3px;
-z-index: 1;
-background-color: white;
-border-radius: 100%;
-animation-name: dota4;
-animation-duration: 10s;
-animation-iteration-count: infinite;
-animation-fill-mode: forwards;
-animation-direction: alternate;
+  width: 3px;
+  height: 3px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 100%;
+  animation-name: dota4;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
 }
 @keyframes dota4{
-0%{
-  position: absolute;
-  margin-top: 30px;
-  margin-left: 20px;
-}
-33%{
-  position: absolute;
-  margin-top: 80vh;
-  margin-left: 33%;
-}
-66%{
-  position: absolute;
-  margin-top: 66vh;
-  margin-left: 66%;
-}
-100%{
-  position: absolute;
-  margin-top: 10vh;
-  margin-left: 95%;
-}
+  0%{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  33%{
+    position: absolute;
+    margin-top: 80vh;
+    margin-left: 33%;
+  }
+  66%{
+    position: absolute;
+    margin-top: 66vh;
+    margin-left: 66%;
+  }
+  100%{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 95%;
+  }
 }
 .dot5{
-width: 3px;
-height: 3px;
-background-color: white;
-border-radius: 100%;
-animation-name: dota5;
-z-index: 1;
-animation-duration: 10s;
-animation-iteration-count: infinite;
-animation-fill-mode: forwards;
-animation-direction: alternate;
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  border-radius: 100%;
+  animation-name: dota5;
+  z-index: 1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
 }
 @keyframes dota5{
-0%{
-  position: absolute;
-  margin-top: 30px;
-  margin-left: 400px;
-}
-33%{
-  position: absolute;
-  margin-top: 70vh;
-  margin-left: 13%;
-}
-66%{
-  position: absolute;
-  margin-top: 76vh;
-  margin-left: 56%;
-}
-100%{
-  position: absolute;
-  margin-top: 12vh;
-  margin-left: 60%;
-}
+  0%{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 400px;
+  }
+  33%{
+    position: absolute;
+    margin-top: 70vh;
+    margin-left: 13%;
+  }
+  66%{
+    position: absolute;
+    margin-top: 76vh;
+    margin-left: 56%;
+  }
+  100%{
+    position: absolute;
+    margin-top: 12vh;
+    margin-left: 60%;
+  }
 }
 .dot6{
-width: 2px;
-height: 2px;
-background-color: white;
-border-radius: 100%;
-z-index: 1;
-animation-name: dota6;
-animation-duration: 10s;
-animation-iteration-count: infinite;
-animation-fill-mode: forwards;
-animation-direction: alternate;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  border-radius: 100%;
+  z-index: 1;
+  animation-name: dota6;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
 }
 @keyframes dota6{
-0%{
-  position: absolute;
-  margin-top: 300px;
-  margin-right: 200px;
-}
-33%{
-  position: absolute;
-  margin-top: 80vh;
-  margin-right: 33%;
-}
-66%{
-  position: absolute;
-  margin-top: 66vh;
-  margin-right: 66%;
-}
-100%{
-  position: absolute;
-  margin-top: 10vh;
-  margin-right: 95%;
-}
+  0%{
+    position: absolute;
+    margin-top: 300px;
+    margin-right: 200px;
+  }
+  33%{
+    position: absolute;
+    margin-top: 80vh;
+    margin-right: 33%;
+  }
+  66%{
+    position: absolute;
+    margin-top: 66vh;
+    margin-right: 66%;
+  }
+  100%{
+    position: absolute;
+    margin-top: 10vh;
+    margin-right: 95%;
+  }
 }
 .dot7{
-width: 2px;
-height: 2px;
-z-index: 1;
-background-color: white;
-border-radius: 100%;
-animation-name: dota7;
-animation-duration: 10s;
-animation-iteration-count: infinite;
-animation-fill-mode: forwards;
-animation-direction: alternate;
+  width: 2px;
+  height: 2px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 100%;
+  animation-name: dota7;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
 }
 @keyframes dota7{
-0%{
-  position: absolute;
-  margin-bottom: 50px;
-  margin-left: 20px;
-}
-33%{
-  position: absolute;
-  margin-top: 65vh;
-  margin-left: 33%;
-}
-66%{
-  position: absolute;
-  margin-bottom: 66vh;
-  margin-left: 66%;
-}
-100%{
-  position: absolute;
-  margin-bottom: 10vh;
-  margin-right: 95%;
-}
+  0%{
+    position: absolute;
+    margin-bottom: 50px;
+    margin-left: 20px;
+  }
+  33%{
+    position: absolute;
+    margin-top: 65vh;
+    margin-left: 33%;
+  }
+  66%{
+    position: absolute;
+    margin-bottom: 66vh;
+    margin-left: 66%;
+  }
+  100%{
+    position: absolute;
+    margin-bottom: 10vh;
+    margin-right: 95%;
+  }
 }
 .dot8{
-width: 3px;
-height: 3px;
-z-index: 1;
-background-color: white;
-border-radius: 100%;
-animation-name: dota8;
-animation-duration: 10s;
-animation-iteration-count: infinite;
-animation-fill-mode: forwards;
-animation-direction: alternate;
+  width: 3px;
+  height: 3px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 100%;
+  animation-name: dota8;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
 }
 @keyframes dota8{
-0%{
-  position: absolute;
-  margin-top: 600px;
-  margin-left: 400px;
-}
-33%{
-  position: absolute;
-  margin-bottom: 60vh;
-  margin-left: 33%;
-}
-66%{
-  position: absolute;
-  margin-top: 46vh;
-  margin-left: 36%;
-}
-100%{
-  position: absolute;
-  margin-top: 6vh;
-  margin-left: 10%;
-}
+  0%{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 400px;
+  }
+  33%{
+    position: absolute;
+    margin-bottom: 60vh;
+    margin-left: 33%;
+  }
+  66%{
+    position: absolute;
+    margin-top: 46vh;
+    margin-left: 36%;
+  }
+  100%{
+    position: absolute;
+    margin-top: 6vh;
+    margin-left: 10%;
+  }
 }
 .dot9{
-width: 4px;
-height: 4px;
-z-index: 1;
-background-color: white;
-border-radius: 100%;
-animation-name: dota9;
-animation-duration: 10s;
-animation-iteration-count: infinite;
-animation-fill-mode: forwards;
-animation-direction: alternate;
+  width: 4px;
+  height: 4px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 100%;
+  animation-name: dota9;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
 }
 @keyframes dota9{
-0%{
-  position: absolute;
-  margin-top: 700px;
-  margin-left: 320px;
-}
-33%{
-  position: absolute;
-  margin-top: 60vh;
-  margin-left: 63%;
-}
-66%{
-  position: absolute;
-  margin-top: 66vh;
-  margin-left: 34%;
-}
-100%{
-  position: absolute;
-  margin-top: 19vh;
-  margin-left: 60%;
-}
+  0%{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 320px;
+  }
+  33%{
+    position: absolute;
+    margin-top: 60vh;
+    margin-left: 63%;
+  }
+  66%{
+    position: absolute;
+    margin-top: 66vh;
+    margin-left: 34%;
+  }
+  100%{
+    position: absolute;
+    margin-top: 19vh;
+    margin-left: 60%;
+  }
 }
 .dot10{
-width: 3px;
-height: 3px;
-z-index: 1;
-background-color: white;
-border-radius: 100%;
-animation-name: dota10;
-animation-duration: 10s;
-animation-iteration-count: infinite;
-animation-fill-mode: forwards;
-animation-direction: alternate;
+  width: 3px;
+  height: 3px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 100%;
+  animation-name: dota10;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
 }
 @keyframes dota10{
-0%{
-  position: absolute;
-  margin-top: 900px;
-  margin-left: 300px;
-}
-33%{
-  position: absolute;
-  margin-top: 80vh;
-  margin-left: 33%;
-}
-66%{
-  position: absolute;
-  margin-top: 60vh;
-  margin-left: 36%;
-}
-100%{
-  position: absolute;
-  margin-top: 10vh;
-  margin-left: 10%;
-}
+  0%{
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 300px;
+  }
+  33%{
+    position: absolute;
+    margin-top: 80vh;
+    margin-left: 33%;
+  }
+  66%{
+    position: absolute;
+    margin-top: 60vh;
+    margin-left: 36%;
+  }
+  100%{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 10%;
+  }
 }
 
 /* *****test***** */
 /* .d1{
-width: 100%;
-height: 20vh;
-background-color: black;
-animation-name: d1an;
-animation-duration: 2s;
+  width: 100%;
+  height: 20vh;
+  background-color: black;
+  animation-name: d1an;
+  animation-duration: 2s;
 }
 @keyframes d1an{
-from{
-  position: relative;
-  right: -100%;
-}
-to{
-  
-}
+  from{
+    position: relative;
+    right: -100%;
+  }
+  to{
+    
+  }
 }
 .d2{
-width: 100%;
-height: 15vh;
-background-color: black;
-animation-name: d2an;
-animation-duration: 2s;
+  width: 100%;
+  height: 15vh;
+  background-color: black;
+  animation-name: d2an;
+  animation-duration: 2s;
 }
 @keyframes d2an{
-from{
-  position: relative;
-  top: -10%;
-}
-to{
-  
-}
+  from{
+    position: relative;
+    top: -10%;
+  }
+  to{
+    
+  }
 } */
 .d3{
-/* box-sizing: border-box; */
-/* background-image: url(cool-background3.png); */
-margin: 0px;
-width: 100%;
-height: 100vh;
-text-align: center;
-display: inline-block;
-background-color: black;
-animation-name: backani;
-animation-play-state: running;
-animation-duration: 60s;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-animation-delay: 3s;
-/* align-items: center;
-justify-content: center; */
-/* animation-name: d3an;
-animation-duration: 2s; */
+  /* box-sizing: border-box; */
+  /* background-image: url(cool-background3.png); */
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: inline-block;
+  background-color: black;
+  animation-name: backani;
+  animation-play-state: running;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 3s;
+  /* align-items: center;
+  justify-content: center; */
+  /* animation-name: d3an;
+  animation-duration: 2s; */
 
 }
 @keyframes backani{
-0%{
-  background-color: black;
-}
-20%{
-  background-color: #6fe890;
+  0%{
+    background-color: black;
+  }
+  20%{
+    background-color: #6fe890;
 
-}
-40%{
-  background-color: #1f96ff;
+  }
+  40%{
+    background-color: #1f96ff;
 
-}
-60%{
-  background-color: #ffc56e;
-}
-80%{
-  background-color: #c383f7;
-}
-100%{
-  background-color: #ff614d;
-}
+  }
+  60%{
+    background-color: #ffc56e;
+  }
+  80%{
+    background-color: #c383f7;
+  }
+  100%{
+    background-color: #ff614d;
+  }
 }
 
 /* .d4{
-width: 100%;
-height:20vh;
-background-color: black;
-animation-name: d4an;
-animation-duration: 2s;
+  width: 100%;
+  height:20vh;
+  background-color: black;
+  animation-name: d4an;
+  animation-duration: 2s;
 }
 @keyframes d4an{
-from{
-  position: relative;
-  left: -100%;
-}
-to{
-  
-}
+  from{
+    position: relative;
+    left: -100%;
+  }
+  to{
+    
+  }
 }
 .d5{
-width: 100%;
-height: 20vh;
-background-color: black;
-animation-name: d5an;
-animation-duration: 2s;
-
+  width: 100%;
+  height: 20vh;
+  background-color: black;
+  animation-name: d5an;
+  animation-duration: 2s;
 }
 @keyframes d1an{
-from{
-  position: relative;
-  bottom: -20%;
-}
-to{
-  
-}
+  from{
+    position: relative;
+    bottom: -20%;
+  }
+  to{
+    
+  }
 } */
 .d3h1{
-color: white;
-font-size: 3rem;
-padding-top: 30vh;
-/* margin-left:10%; */
-animation-name: d3an;
-animation-duration: 1s;
-
+  color: white;
+  font-size: 3rem;
+  padding-top: 30vh;
+  /* margin-left:10%; */
+  animation-name: d3an;
+  animation-duration: 1s;
+ 
 }
 .d3h2{
-color: white;
-/* margin-left: 10%; */
-padding-top: 2%;
-animation-name: d3an;
-animation-duration: 2s;
-
+  color: white;
+  /* margin-left: 10%; */
+  padding-top: 2%;
+  animation-name: d3an;
+  animation-duration: 2s;
+  
 }
 .bjoinus{
-margin-left: auto;
+  margin-left: auto;
 
-border-radius: 30px;
-border-color: white;
+  border-radius: 30px;
+  border-color: white;
 
-/* border-right-color: white;
-border-bottom-color: white; */
-border-width: 3px;
-font-size: 2rem;
-border-style: solid;
-padding-top: 10px;
-padding-bottom: 10px;
-padding-right: 20px;
-padding-left: 20px;
-margin-top: 2%;
-background: none;
-background: none;
-
+  /* border-right-color: white;
+  border-bottom-color: white; */
+  border-width: 3px;
+  font-size: 2rem;
+  border-style: solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 2%;
+  background: none;
+  background: none;
+  
 }
 .banc{
-text-decoration: none;
-color: white;
+  text-decoration: none;
+  color: white;
 }
 .bjoinus:hover{
-background: black;
-border-color: black;
+  background: black;
+  border-color: black;
 }
 .banc:hover{
-color: white;
+  color: white;
 }
 @keyframes d3an{
-from{
-  font-size: 1.5rem;
-}
-to{
-}
+  from{
+    font-size: 1.5rem;
+  }
+  to{
+  }
 }
 /* .d4{
-margin-left:-4px;
-width: 50%;
-background-color: black;
-height: 100vh;
-display: inline-block;
+  margin-left:-4px;
+  width: 50%;
+  background-color: black;
+  height: 100vh;
+  display: inline-block;
 } */
 .d4img{
-width:20%;
-position: absolute;
-top: 35vh;
-right:10%;
-border-radius: 100%;
-animation-name: d4imgani;
-animation-duration: 10s;
+  width:20%;
+  position: absolute;
+  top: 35vh;
+  right:10%;
+  border-radius: 100%;
+  animation-name: d4imgani;
+  animation-duration: 10s;
 
 }
 @keyframes d4imgani{
-from{
-  
-  position: relative;
-  top: 80%;
-}
-to{
-  
-}
+  from{
+    
+    position: relative;
+    top: 80%;
+  }
+  to{
+    
+  }
 }
 .testbody{
-text-align: left;
-margin: 0px;
+  text-align: left;
+  margin: 0px;
 }
 .d2{
-margin: 0px;
-/* background-color: black; */
+  margin: 0px;
+  /* background-color: black; */
 }
 .odh2{
-font-size: 3rem;
-margin-top: 5%;
-margin-bottom: 5%;
+  font-size: 3rem;
+  margin-top: 5%;
+  margin-bottom: 5%;
 
 }
 .anileft{
-animation-name: anleft;
-animation-duration: 1.5s;
+  animation-name: anleft;
+  animation-duration: 1.5s;
 }
 @keyframes anleft{
-from{
-  position: relative;
-  top: 140px;
-}
-to{
-  position: relative;
-  top:0px;
-}
+  from{
+    position: relative;
+    top: 140px;
+  }
+  to{
+    position: relative;
+    top:0px;
+  }
 }
 /* .anileftsh2{
-animation-name: anleftsh2;
-animation-duration: 1s;
+  animation-name: anleftsh2;
+  animation-duration: 1s;
 }
 @keyframes anleftsh2{
-from{
-  position: relative;
-  bottom:30%;
-}
-to{
-
-}
+  from{
+    position: relative;
+    bottom:30%;
+  }
+  to{
+  }
 } */
 .fdiv1{
-
-background-color: black;
-box-sizing: border-box;
+  
+  background-color: black;
+  box-sizing: border-box;
 }
 
 .pdes{
-margin-top: 7%;
-font-size: 1.2rem;
-margin-bottom: 4%;
-line-height: 2.5rem;
+  margin-top: 7%;
+  font-size: 1.2rem;
+  margin-bottom: 4%;
+  line-height: 2.5rem;
 }
 .butl{
-margin-bottom: 3%;
-padding: 10px 15px 10px 15px;
-color: white;
-border-radius: 30px;
-background: #333dff;
-font-size: 1.5rem;
-border-style: none;
-border-width: 3px;
+  margin-bottom: 3%;
+  padding: 10px 15px 10px 15px;
+  color: white;
+  border-radius: 30px;
+  background: #333dff;
+  font-size: 1.5rem;
+  border-style: none;
+  border-width: 3px;
 
 }
 .butl:hover{
-background: orange;
+  background: orange;
 }
 
 .butr{
-margin-bottom: 3%;
-padding: 10px 15px 10px 15px;
-color: white;
-border-radius: 30px;
-background: #333dff;
-font-size: 1.5rem;
-border-style: none;
-border-width: 3px;
+  margin-bottom: 3%;
+  padding: 10px 15px 10px 15px;
+  color: white;
+  border-radius: 30px;
+  background: #333dff;
+  font-size: 1.5rem;
+  border-style: none;
+  border-width: 3px;
 }
 .butr:hover{
-background: orange;
+  background: orange;
 }
 .blh{
-color: white;
+  color: white;
 }
 /* .fclass{
-background-color: #e4e4ed;
+  background-color: #e4e4ed;
 } */
 /* *****abhishek styling****** */
 /* .contactlink{
-text-decoration: none;
-color: black;
+  text-decoration: none;
+  color: black;
 }
 #contactus{ 
-text-align : center;
-font-size: 1rem;
+  text-align : center;
+  font-size: 1rem;
 } */
 /* h1{
-padding: 10px;
-text-align: center;
-color: #393e46; 
+  padding: 10px;
+  text-align: center;
+  color: #393e46; 
 } */
 .contactlink{
-text-decoration: none;
-color: black;
+  text-decoration: none;
+  color: black;
 }
 .Department{
-background-color: #393e46;
+  background-color: #393e46;
 }
 #ConAboutUS{
-padding: 7% 15%;
+  padding: 7% 15%;
 }
 .feature-box{
-padding: 5%;
+  padding: 5%;
 }
 #top{
-width:100%
+  width:100%
 }
 h5{
-font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 .imgTeam{
-width:35%;
-height: 60%;
+  width:35%;
+  height: 60%;
 }
 .socmail, .soclin, .socgit, .socinsta, .socwhat, .socadd, .socall{
-padding: 1%;
-color: black;
+  padding: 1%;
+  color: black;
 }
 
 .socmail:hover{
-color: #EA4335;
+  color: #EA4335;
 }
 
 .socinsta:hover{
-color: #E1306C;
+  color: #E1306C;
 }
 
 .socgit:hover{
-color: #333333;
+  color: #333333;
 }
 
 .soclin:hover{
-color: #0077B5;
+  color: #0077B5;
 }
 .socwhat:hover{
-color: #25D366;
+  color: #25D366;
 }
 .socadd:hover{
-color: #f13800;
+  color: #f13800;
 }
 .soccall:hover{
-color: #4c6ef4;
+  color: #4c6ef4;
 }
 .contactlist{
-list-style-type: none;
-padding: 2%;
+  list-style-type: none;
+  padding: 2%;
 }
 #contactus{
-text-align : center;
- font-size: 1rem;
- background-color: #eeeeee;
+  text-align : center;
+   font-size: 1rem;
+   background-color: #eeeeee;
 }
 html{
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 /* body{
-  margin: 0;
-padding: 0;
-background-color: #eeeeee;
+    margin: 0;
+  padding: 0;
+  background-color: #eeeeee;
 } */
 #ConTeam{
-  text-align: center;
+    text-align: center;
 }
 /* .gotopbtn{
-position: fixed;
-width: 40px;
-height: 40px;
-background: #393e46;
-bottom: 40px;
-right: 50px;
-
-text-decoration: none;
-text-align: center;
-line-height: 50px;
-color: white;
-font-size: 25px;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  background: #393e46;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 25px;
 } */
 footer{
-  background-color: #eeeeee;
-  text-align: center;
+    background-color: #eeeeee;
+    text-align: center;
 }
 /* .homenav{
-  color: white;
+    color: white;
 } */
 /* .navlogo{
-margin-left: 5%;
+  margin-left: 5%;
 } */
 /* #contactus{
-text-align: center;
-font-size: 1rem;
+  text-align: center;
+  font-size: 1rem;
 } */
 /* .navicon{
-  float: left;
+    float: left;
 } */
 .teamtitle{
-margin-top: 7%;
-margin-bottom: 2%;
-font-size: 2.5rem;
-}
-.footerlogoimg{
-  width:25%;
+  margin-top: 7%;
+  margin-bottom: 2%;
+  font-size: 2.5rem;
 }

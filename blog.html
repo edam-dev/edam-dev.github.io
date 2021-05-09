@@ -4,85 +4,620 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- css -->
-    <link rel="stylesheet" href="styling.css">
-    <script src="https://kit.fontawesome.com/2835b28d2d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-    <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <!-- title -->
-    <title>e - DAM</title>
-    <link rel="icon" href="images/edamcircled.png">
+    <meta name="keywords" content="e-dam, E-DAM, Designing, Marketing,freelancing" />
+  <meta name="description" content="We are a IARE college-club. We learn and develop, design Website, Application. We even manange social media marketing i.e Digital Maekting and logo Designing.
+  We have content writers." />
+    <title>Blog</title>
+    
+    <style>
+        .animatio {
+     text-align: right; 
+     position: fixed; 
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+    animation-name: backani;
+    animation-duration: 60s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.dot1 {
+    width: 3px;
+    height: 3px;
+    z-index: 3;
+    background-color: white;
+    border-radius: 100%;
+    animation-name: dota1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+}
+.dot{
+  animation-name: dota;
+  z-index: 3;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  border-radius: 100%;
+}
+@keyframes dota{
+  0%{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  33%{
+    position: absolute;
+    margin-top: 33vh;
+    margin-left: 33%;
+  }
+  66%{
+    position: absolute;
+    margin-top: 66vh;
+    margin-left: 66%;
+  }
+  100%{
+    position: absolute;
+    margin-top: 100vh;
+    margin-left: 10%;
+  }
+}
+@keyframes dota1{
+  0%{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 200px;
+  }
+  33%{
+    position: absolute;
+    margin-top: 33vh;
+    margin-left: 33%;
+  }
+  66%{
+    position: absolute;
+    margin-top: 66vh;
+    margin-left: 30%;
+  }
+  100%{
+    position: absolute;
+    margin-top: 100vh;
+    margin-left: 60%;
+  }
+}
+@keyframes dota2{
+  0%{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 200px;
+  }
+  33%{
+    position: absolute;
+    margin-top: 80vh;
+    margin-left: 33%;
+  }
+  66%{
+    position: absolute;
+    margin-top: 66vh;
+    margin-left: 66%;
+  }
+  100%{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 95%;
+  }
+}
+.dot1{
+  width: 3px;
+  height: 3px;
+  z-index: 3;
+  background-color: white;
+  border-radius: 100%;
+  animation-name: dota1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+.dot2{
+  width: 5px;
+  height: 5px;
+  z-index: 3;
+  background-color: white;
+  border-radius: 100%;
+  animation-name: dota2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+.dot3{
+  width: 4px;
+  height: 4px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 100%;
+  animation-name: dota3;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+@keyframes dota3{
+  0%{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 400px;
+  }
+  33%{
+    position: absolute;
+    margin-top: 60vh;
+    margin-left: 23%;
+  }
+  66%{
+    position: absolute;
+    margin-top: 66vh;
+    margin-left: 36%;
+  }
+  100%{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 90%;
+  }
+}
+.dot4{
+  width: 3px;
+  height: 3px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 100%;
+  animation-name: dota4;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+@keyframes dota4{
+  0%{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  33%{
+    position: absolute;
+    margin-top: 80vh;
+    margin-left: 33%;
+  }
+  66%{
+    position: absolute;
+    margin-top: 66vh;
+    margin-left: 66%;
+  }
+  100%{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 95%;
+  }
+}
+.dot5{
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  border-radius: 100%;
+  animation-name: dota5;
+  z-index: 1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+@keyframes dota5{
+  0%{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 400px;
+  }
+  33%{
+    position: absolute;
+    margin-top: 70vh;
+    margin-left: 13%;
+  }
+  66%{
+    position: absolute;
+    margin-top: 76vh;
+    margin-left: 56%;
+  }
+  100%{
+    position: absolute;
+    margin-top: 12vh;
+    margin-left: 60%;
+  }
+}
+.dot6{
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  border-radius: 100%;
+  z-index: 1;
+  animation-name: dota6;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+@keyframes dota6{
+  0%{
+    position: absolute;
+    margin-top: 300px;
+    margin-right: 200px;
+  }
+  33%{
+    position: absolute;
+    margin-top: 80vh;
+    margin-right: 33%;
+  }
+  66%{
+    position: absolute;
+    margin-top: 66vh;
+    margin-right: 66%;
+  }
+  100%{
+    position: absolute;
+    margin-top: 10vh;
+    margin-right: 95%;
+  }
+}
+.dot7{
+  width: 2px;
+  height: 2px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 100%;
+  animation-name: dota7;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+@keyframes dota7{
+  0%{
+    position: absolute;
+    margin-bottom: 50px;
+    margin-left: 20px;
+  }
+  33%{
+    position: absolute;
+    margin-top: 65vh;
+    margin-left: 33%;
+  }
+  66%{
+    position: absolute;
+    margin-bottom: 66vh;
+    margin-left: 66%;
+  }
+  100%{
+    position: absolute;
+    margin-bottom: 10vh;
+    margin-right: 95%;
+  }
+}
+.dot8{
+  width: 3px;
+  height: 3px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 100%;
+  animation-name: dota8;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+@keyframes dota8{
+  0%{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 400px;
+  }
+  33%{
+    position: absolute;
+    margin-bottom: 60vh;
+    margin-left: 33%;
+  }
+  66%{
+    position: absolute;
+    margin-top: 46vh;
+    margin-left: 36%;
+  }
+  100%{
+    position: absolute;
+    margin-top: 6vh;
+    margin-left: 10%;
+  }
+}
+.dot9{
+  width: 4px;
+  height: 4px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 100%;
+  animation-name: dota9;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+@keyframes dota9{
+  0%{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 320px;
+  }
+  33%{
+    position: absolute;
+    margin-top: 60vh;
+    margin-left: 63%;
+  }
+  66%{
+    position: absolute;
+    margin-top: 66vh;
+    margin-left: 34%;
+  }
+  100%{
+    position: absolute;
+    margin-top: 19vh;
+    margin-left: 60%;
+  }
+}
+.dot10{
+  width: 3px;
+  height: 3px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 100%;
+  animation-name: dota10;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+@keyframes dota10{
+  0%{
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 300px;
+  }
+  33%{
+    position: absolute;
+    margin-top: 80vh;
+    margin-left: 33%;
+  }
+  66%{
+    position: absolute;
+    margin-top: 60vh;
+    margin-left: 36%;
+  }
+  100%{
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 10%;
+  }
+}
+
+/* *****test***** */
+/* .d1{
+  width: 100%;
+  height: 20vh;
+  background-color: black;
+  animation-name: d1an;
+  animation-duration: 2s;
+}
+@keyframes d1an{
+  from{
+    position: relative;
+    right: -100%;
+  }
+  to{
+    
+  }
+}
+.d2{
+  width: 100%;
+  height: 15vh;
+  background-color: black;
+  animation-name: d2an;
+  animation-duration: 2s;
+}
+@keyframes d2an{
+  from{
+    position: relative;
+    top: -10%;
+  }
+  to{
+    
+  }
+} */
+.d3{
+  /* box-sizing: border-box; */
+  /* background-image: url(cool-background3.png); */
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: inline-block;
+  background-color: black;
+  animation-name: backani;
+  animation-play-state: running;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 3s;
+  /* align-items: center;
+  justify-content: center; */
+  /* animation-name: d3an;
+  animation-duration: 2s; */
+
+}
+@keyframes backani{
+  0%{
+    background-color: black;
+  }
+  20%{
+    background-color: #6fe890;
+
+  }
+  40%{
+    background-color: #1f96ff;
+
+  }
+  60%{
+    background-color: #ffc56e;
+  }
+  80%{
+    background-color: #c383f7;
+  }
+  100%{
+    background-color: #ff614d;
+  }
+}
+
+/* .d4{
+  width: 100%;
+  height:20vh;
+  background-color: black;
+  animation-name: d4an;
+  animation-duration: 2s;
+}
+@keyframes d4an{
+  from{
+    position: relative;
+    left: -100%;
+  }
+  to{
+    
+  }
+}
+.d5{
+  width: 100%;
+  height: 20vh;
+  background-color: black;
+  animation-name: d5an;
+  animation-duration: 2s;
+}
+@keyframes d1an{
+  from{
+    position: relative;
+    bottom: -20%;
+  }
+  to{
+    
+  }
+} */
+.d3h1{
+  color: white;
+  font-size: 3rem;
+  padding-top: 30vh;
+  /* margin-left:10%; */
+  animation-name: d3an;
+  animation-duration: 1s;
+ 
+}
+.d3h2{
+  color: white;
+  /* margin-left: 10%; */
+  padding-top: 2%;
+  animation-name: d3an;
+  animation-duration: 2s;
+  
+}
+.bjoinus{
+  margin-left: auto;
+
+  border-radius: 30px;
+  border-color: white;
+
+  /* border-right-color: white;
+  border-bottom-color: white; */
+  border-width: 3px;
+  font-size: 2rem;
+  border-style: solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 2%;
+  background: none;
+  background: none;
+  
+}
+.banc{
+  text-decoration: none;
+  color: white;
+}
+.bjoinus:hover{
+  background: black;
+  border-color: black;
+}
+.banc:hover{
+  color: white;
+}
+    </style>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
 </head>
 <body>
-  <img class="headeri" src="images/edamcircled.png">
-  <div class="navi1">
-      <!-- <h1 class="headerh1">E - DAM</h1> -->
-      <a class="menu" href="index.html">Home</a>
-      <a class="menu" href="aboutus.html">About Us</a>
-      <a class="menu" href="departments.html">Departments</a>
-      <a class="menu" href="blog.html">Blog</a>
-      <a class="menu" href="#contactfooter">Contact Us</a>
-  </div>
-<div class="space">
-
-</div>
-<h1 style="padding:20%"> Coming Soon!</h1>
-</section>
-<footer id="contactfooter">
-  <div class="row">
-    <div class=" feature-box col-lg-6">
-      <img class="footerlogoimg" src="images/edamcircled.png"><br><br>
-      <h2> e - Designing and Marketing </h2><br>
-      <a href="#" onClick="window.open('https://www.instagram.com/edam.iare/', '_blank')"><i
-          class="fab fa-instagram icons fa-2x socinsta" style=" padding-left: 10px; padding-right: 10px;"></i></a>
-      <a href="#" onClick="window.open('https://github.com/edam-dev', '_blank')"><i
-          class="fab fa-github icons fa-2x socgit"></i></a>
-      <a href="#"
-        onClick="window.open('https://api.whatsapp.com/send/?phone=917995738881&text=Thank+you+for+connecting+%21&app_absent=0', '_blank')"><i
-          class="fab fa-whatsapp icons fa-2x socwhat"></i></a>
-    </div>
-    <div class=" feature-box col-lg-6">
-      <section id="contactus">
-        <h3> Contact Us</h3>
-        <div class="feature-box col-lg-6">
-          <div class="row">
-            <div class="feature-box col-lg-6">
-              <i class="fas fa-map-marker-alt fa-2x socadd"></i>
-            </div>
-            <div class="feature-box col-lg-6">
-              <a class="contactlink" href="#"
-                onClick="window.open('https://goo.gl/maps/TUbDVKdL8EDi4ujZ9', '_blank')">INSTITUTE OF AERONAUTICAL
-                ENGINEERING<br>Dundigal, Hyderabad – 500 043,<br>Telangana, India.</a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="feature-box col-lg-6">
-              <i class="fas fa-phone-square-alt fa-2x soccall"></i>
-            </div>
-            <div class="feature-box col-lg-6 ">
-              <h4>Phone</h4>
-              <p>7995738881, 8978296722, 9100584757</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="feature-box col-lg-6">
-              <i class="fas fa-envelope icons fa-2x socmail"></i>
-            </div>
-            <div class="feature-box col-lg-6">
-              <h4>Mail</h4>
-              <a class="contactlink" href="#" onClick="window.open('mailto:edesigningsolutions@gmail.com', '_blank')">
-                edesigningsolutions@gmail.com </a>
-            </div>
-          </div>
+    <a id="blog"></a>
+    <header class="text-gray-600 body-font"><span style="background-color:cornsilk;"></span>
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <img src="images/EDAM OFF-02 (2).png" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-10 h-10 text-white p-2 bg-none-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">E-DAM</span>
+          </a>
+          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+            <a  href="index.html" class="mr-5 hover:text-gray-900">Home</a>
+            <a href="aboutus.html"  class="mr-5 hover:text-gray-900"> About us</a>
+            <a href="index.html" class="mr-5 hover:text-gray-900">Contact us</a>
+            <a  href="departments.html" class="mr-5 hover:text-gray-900">Departments</a>
+            <a  href="blog.html"  class="mr-5 hover:text-gray-900">Blog</a>
+            
+          </nav>
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"><a href="https://www.linkedin.com/company/77841024/" target="_blank">Connect</a>
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
         </div>
-      </section>
-    </div>
-  </div>
-  <center>
-    <h6>Copyright ©2021 All rights reserved</h6>
-  </center>
-</footer>
+      </header>
+    <section class="animatio">
+        <div class="dot1">.</div>
+        <div class="dot2"></div>
+        <div class="dot3"></div>
+        <div class="dot4"></div>
+        <div class="dot5"></div>
+        <div class="dot6"></div>
+        <div class="dot7"></div>
+        <div class="dot8"></div>
+        <div class="dot9"></div>
+        <div class="dot10"></div>
+        <div class="d2">
+        <div class="d3" style="animation-play-state: running;">
+        <h1 class="d3h1">COMING SOON</h1>
+        <h2>Creating Beyond Limits.</h2>
+        
+        </div>
+        <div class="d4">
+        </div>
+        </div>
+        <div class="dot">
+        </div>
+    </section>
+    
 </body>
 </html>
