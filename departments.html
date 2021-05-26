@@ -11,39 +11,46 @@
   <link rel="icon" href="images/edamcircled.png">
   <title>EDAM_IARE-Departments</title>
   <link rel="stylesheet" href="styling.css">
+  <link rel="stylesheet" href="hamburger.css">
+
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/2835b28d2d.js" crossorigin="anonymous"></script>
+ 
+ <script src="https://kit.fontawesome.com/2835b28d2d.js" crossorigin="anonymous"></script>
+ <style>
+  .div1{
+    position: fixed;
+    bottom:8%;
+    right:6%;
+    z-index: 2;
+
+  }
+</style>
 </head>
 
 <body>
-  <header class="text-gray-600 body-font"><span style="background-color:whitesmoke;"></span>
-    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-        <img src="images/Official-01-O.png" fill="none" stroke="currentColor" stroke-linecap="round"
-          stroke-linejoin="round" stroke-width="0" class="w-12 h-12 text-white p-2bg-none-500 rounded-full"
-          viewBox="0 0 24 24">
-        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-        </svg>
-        <span class="ml-3 text-xl">e - DAM</span>
-      </a>
-      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-        <a href="index.html" class="mr-5 hover:text-gray-900">Home</a>
-        <a href="aboutus.html" class="mr-5 hover:text-gray-900">About us</a>
-        <a href="#fo" class="mr-5 hover:text-gray-900">Contact us</a>
-        <a href="departments.html" class="mr-5 hover:text-gray-900">Departments</a>
-        <a href="blog.html" class="mr-5 hover:text-gray-900">Blog</a>
-
-      </nav>
-      <button
-        class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"><a
-          href="https://www.linkedin.com/company/77841024/" target="_blank">Connect</a>
-        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-          class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-          <path d="M5 12h14M12 5l7 7-7 7"></path>
-        </svg>
-      </button>
+  <a id="hm"></a>
+  <div class="div1"><a href="#hm">
+    <i class="fas fa-3x fa-angle-up"></i></a></div>
+  <nav class="navbar background h-nav-resp">
+   
+    <ul class="nav-list v-class-resp">
+      <div class="logo"><img src="images/EDAM OFF-01.png alt="logo" /></div>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="departments.html">Departments</a></li>
+      <li><a href="#fo">Contact us</a></li>
+    </ul>
+   <div>
+    <div class="burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
     </div>
-  </header>
+    <img class="log" src="images/EDAM OFF-01.png" alt="" srcset="">
+    </div> 
+  </nav>
+
   <section class="text-gray-600 body-font" style="background-color:peachpuff ">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-wrap w-full mb-20">
@@ -121,7 +128,7 @@
         </div>
       </div>
   </section>
-  </header>
+ 
   <section class="text-gray-600 body-font">
     <div class="container px-5 py-24 mx-auto">
       <div class="text-center mb-20">
@@ -356,7 +363,7 @@
   </footer>
   </div>
   </header>
-
+<script src="hamburger.js"></script>
 </body>
 
 </html>
