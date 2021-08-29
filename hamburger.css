@@ -72,7 +72,7 @@
     top: 2%;
     height:60px;
   }
-  @media only screen and (max-width: 1238px) {
+  @media only screen and (max-width: 1308px) {
     .nav-list {
         /* display: flex; */
         flex-direction: column;
