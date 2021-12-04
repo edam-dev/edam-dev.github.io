@@ -1,6 +1,6 @@
-@media (max-width:600px) {
+@media (max-width:1200px) {
   .form{
-    width: 380px;
+    width: 100%;
   }
 }
 
